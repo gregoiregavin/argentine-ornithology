@@ -33,7 +33,22 @@ The source file contains some metadata, notes and preface which are out of the s
 **Output** : [1_birds.txt](files/1_birds.txt)
 
 ## 2. Data recovery
-...
+
+**Data structure**
+Birds belongs to a Family, and Families belongs to an Order.
+
+Order
+|--- Family
+    |--- Bird
+
+Each Bird has a scientific name (in latin), a common name, the name of the scientist(s) who discovered it and an habitat.
+
+**Expected results**
+As the table of content of the original document is humanly readable and accessible, we can predict the regex should return :
+- 18 Orders
+- 35 Families
+- 204 Birds
+
 
 ## 3. XML generation
 ...
