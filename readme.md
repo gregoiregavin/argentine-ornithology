@@ -1,12 +1,7 @@
 Argentine ornithology (vol. II)
 ===============================
-Source : https://www.gutenberg.org/ebooks/38957
 
-Dependencies :
-- [re - Regular expresion operations](https://docs.python.org/3/library/re.html)
-- ...
-
-## Authors
+**Authors**
 - Séverine Bochatay
 - Adrien Coulon
 - Grégoire Gavin
@@ -24,6 +19,12 @@ The following steps allows us to accomplish this :
 2. Data recovery with regex 
 3. Creation of a well structured XML file
 4. XSLT transformation to a clean HTML file
+
+**Source** : https://www.gutenberg.org/ebooks/38957
+
+**Dependencies** :
+- [re - Regular expresion operations](https://docs.python.org/3/library/re.html)
+- ...
 
 ## 1. Clean-up
 The source file contains some metadata, notes and preface which are out of the scope of this project. The document also contains a table of content which would result to duplicates elements when extracting data with regular expressions. To avoid the duplicates, we **manually** remove all those elements and the table of content.
