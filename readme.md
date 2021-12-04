@@ -37,12 +37,6 @@ The source file contains some metadata, notes and preface which are out of the s
 **Data structure**
 Birds belongs to a Family, and Families belongs to an Order.
 
-|── Order
-
-    └── Family
-
-        └── Bird
-
 Each Bird has a scientific name (in latin), a common name, the name of the scientist(s) who discovered it and an habitat.
 
 **Expected results**
