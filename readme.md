@@ -2,6 +2,7 @@ Argentine ornithology (vol. II)
 ===============================
 
 **Authors** : Séverine Bochatay, Adrien Coulon, Grégoire Gavin
+
 _December 2021_
 
 <figure>
