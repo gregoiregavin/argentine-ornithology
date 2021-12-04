@@ -1,10 +1,8 @@
 Argentine ornithology (vol. II)
 ===============================
 
-**Authors**
-- Séverine Bochatay
-- Adrien Coulon
-- Grégoire Gavin
+**Authors** : Séverine Bochatay, Adrien Coulon, Grégoire Gavin
+_December 2021_
 
 <figure>
     <img src="https://www.gutenberg.org/cache/epub/38957/images/plt11_lg.jpg" alt="CHÆTOCERCUS BURMEISTERI." width="350" />
