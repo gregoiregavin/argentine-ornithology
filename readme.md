@@ -48,15 +48,10 @@ As the table of content of the original document is humanly readable and accessi
 - 204 Birds
 
 ### Test regex
-From here, we're able to create and text the regular expressions to find our data. Here's an example as how we tested the regex to extract the Orders :
+From here, we're able to create and text the regular expressions to find our data. Here's an example as how we tested the regex to extract the Orders. We used ```re.findall()``` and ```print(len())``` functions to check if the results were similar as expected.
 
-```
-Orders = re.findall('Order [ILVX]*\. [A-Z \Æ]*\.', sourcetext)
-print(len(Orders)) # -> 18
-```
-
-The regex :
- - All Orders : ```'Order [ILVX]*\. [A-Z \Æ]*\.'```
+The following regex were found :
+ - All Orders : ```Order [ILVX]*\. [A-Z \Æ]*\.```
  - All Families :
  - All Birds : 
 
