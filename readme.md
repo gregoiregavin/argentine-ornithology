@@ -37,7 +37,7 @@ The source file contains some metadata, notes and preface which are out of the s
 **Data structure**
 Birds belongs to a Family, and Families belongs to an Order.
 
-── Order
+|── Order
 
     └── Family
 
