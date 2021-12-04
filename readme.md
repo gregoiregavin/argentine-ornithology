@@ -14,10 +14,10 @@ _December 2021_
 ## Description
 This project aims to collect some data from a simple TXT file and render them to a clean HTML file.
 The following steps allows us to accomplish this :
-1. Clean-up of the source data
-2. Data recovery with regex 
-3. Creation of a well structured XML file
-4. XSLT transformation to a clean HTML file
+1. [Clean-up of the source data](#1-clean-up)
+2. [Data recovery with regex](#2-data-recovery)
+3. [Creation of a well structured XML file](#3-xml-generation)
+4. [XSLT transformation to a clean HTML file](#4-xslt-transformation)
 
 **Source** : https://www.gutenberg.org/ebooks/38957
 
@@ -51,9 +51,9 @@ As the table of content of the original document is humanly readable and accessi
 From here, we're able to create and text the regular expressions to find our data. Here's an example as how we tested the regex to extract the Orders. We used ```re.findall()``` and ```print(len())``` functions to check if the results were similar as expected.
 
 The following regex were found :
- - All Orders : ```Order [ILVX]*\. [A-Z \Æ]*\.```
- - All Families :
- - All Birds : 
+ - Get Orders : ```Order [ILVX]*\. [A-Z \Æ]*\.```
+ - Get Families :
+ - Get Birds : 
 
 
 ## 3. XML generation
