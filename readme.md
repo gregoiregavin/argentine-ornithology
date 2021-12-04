@@ -26,7 +26,7 @@ The following steps allows us to accomplish this :
 - ...
 
 ## 1. Clean-up
-The source file contains some metadata, notes and preface which are out of the scope of this project. The document also contains a table of content which would result to duplicates elements when extracting data with regular expressions. To avoid the duplicates, we **manually** remove all those elements and the table of content.
+The source file contains some metadata, notes, preface, appendix and index which won't be used in the scope of this project. The document also contains a table of content which would result to duplicates elements when extracting data with regular expressions. To avoid the duplicates, we **manually** remove all those elements and the table of content.
 
 **Input** : [0_birds.txt](files/0_birds.txt)
 
@@ -46,6 +46,19 @@ As the table of content of the original document is humanly readable and accessi
 - 18 Orders
 - 35 Families
 - 204 Birds
+
+### Test regex
+From here, we're able to create and text the regular expressions to find our data. Here's an example as how we tested the regex to extract the Orders :
+
+```
+Orders = re.findall('Order [ILVX]*\. [A-Z \Æ]*\.', sourcetext)
+print(len(Orders)) # -> 18
+```
+
+The regex :
+ - All Orders : ```'Order [ILVX]*\. [A-Z \Æ]*\.'```
+ - All Families :
+ - All Birds : 
 
 
 ## 3. XML generation
