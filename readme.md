@@ -34,26 +34,26 @@ The source file contains some metadata, notes, preface, appendix and index which
 
 ## 2. Data recovery
 
-### Data structure
+### 2.1 Data structure
 
 Birds belongs to a Family, and Families belongs to an Order.
 
 Each Bird has a scientific name (in latin), a common name, the name of the scientist(s) who discovered it and an habitat.
 
-### Expected results
+### 2.2 Expected results
 
 As the table of content of the original document is humanly readable and accessible, we can predict the regex should return :
 - 18 Orders
 - 35 Families
-- 204 Birds
+- 202 Birds
 
-### Test regex
+### 2.3 Test regex
 From here, we're able to create and text the regular expressions to find our data. Here's an example as how we tested the regex to extract the Orders. We used ```re.findall()``` and ```print(len())``` functions to check if the results were similar as expected.
 
 The following regex were found :
- - Get Orders : ```Order [ILVX]*\. [A-Z \Æ]*\.```
- - Get Families :
- - Get Birds : 
+ - Get Orders : ```Order\s[IVXL]*\.\s[A-Z \Æ]*\.```
+ - Get Families : ```Fam\.\s[IVXL]*\.\s[A-Z \Æ]*```
+ - Get Birds : ```[0-9]{3}\.\s[A-Z \Æ]{7,}``` (birds name have 7+ characters, "300. GERANOA" being the smallest bird name)
 
 
 ## 3. XML generation
