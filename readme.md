@@ -29,6 +29,7 @@ The following steps allows us to accomplish this :
 The source file contains some metadata, notes and preface which are out of the scope of this project. The document also contains a table of content which would result to duplicates elements when extracting data with regular expressions. To avoid the duplicates, we **manually** remove all those elements and the table of content.
 
 **Input** : 0_birds.txt
+
 **Output** : 1_birds.txt
 
 ## 2. Data recovery
