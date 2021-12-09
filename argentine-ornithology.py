@@ -20,6 +20,8 @@ for order in fileinput.input(files=('files/1_birds.txt'), encoding='utf-8'):
             print(family)
         
 
+# test commentaire 
+
 #Orders = re.findall('Order\s[IVXL]*\.\s[A-Z \Æ]*\.', sourcetext)
 #print(len(Orders)) # OK -> 18 orders
 #print(Orders)
