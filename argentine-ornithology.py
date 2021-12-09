@@ -19,7 +19,6 @@ for order in fileinput.input(files=('files/1_birds.txt'), encoding='utf-8'):
         for family in (families):
             print(family)
 
-#coucou
         
 
 # test commentaire 
