@@ -17,7 +17,7 @@ for order in fileinput.input(files=('files/1_birds.txt'), encoding='utf-8'):
         families = re.findall('(Fam\.\s[IVXL]*\.\s[A-Z \Æ]*)', sourcetext)
         print("\n================================\n"+order+"\n"+"================================\n")
         for family in (families):
-            print(family)
+            print(family) coucou
         
 
 # test commentaire 
