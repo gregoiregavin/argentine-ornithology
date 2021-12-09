@@ -36,7 +36,7 @@ The source file contains some metadata, notes, preface, and index which won't be
 
 ### 2.1 Data structure
 
-Birds belongs to a Family, and Families belongs to an Order.
+Birds belongs to a Family, and sdfadfFamilies belongs to an Order.
 
 Each Bird has a scientific name (in latin), a common name, the name of the scientist(s) who discovered it and an habitat.
 
