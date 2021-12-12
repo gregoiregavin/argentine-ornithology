@@ -50,9 +50,10 @@ As the table of content of the original document is humanly readable and accessi
 ### 2.3 Test regex
 From here, we're able to create and text the regular expressions to find our data. We checked the results with the [checkResults function](utils/utils.py) and found the following regex :
 
- - Get Orders : ```Order\s[IVXL]*\.\s[A-Z \Æ]*\.```
+ - Get Orders : ```Order\s([IVXL]*)\.\s([A-Z \Æ]*)\.```
  - Get Families : ```^Fam\.\s([IVXL]+)\. (.+)$```
- - Get Birds : ```[0-9]{3}\.\s[A-Z \Ë\Œ\Æ]{7,}```
+ - Get Birds : ```(?m)^(([0-9]{3})\. (.*))$``` (and scientific abbr. name)
+ - Get Habitats : ```(?m)^(_Hab\._ (.*))$```
 
  _For some reason, it seems we find 205 birds instead of 204. No information is missing still._
 
