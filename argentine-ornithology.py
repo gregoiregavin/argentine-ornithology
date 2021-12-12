@@ -13,7 +13,7 @@ for line in fileinput.input(files='files/1_birds.txt',encoding='utf-8'):
     m = re.match('Order\s[IVXL]*\.\s[A-Z \Æ]*\.', line)
     if m:
         print(line)
-        order = ET.SubElement(root, 'order', attrib = {'n': m.group(2), 'name': m.group(1)})
+        order = ET.SubElement(root, 'order', attrib = {'n': m.group(2),'name': m.group(1)})
 
     #m = re.match('Fam\.\s[IVXL]*\.\s[A-Z \Æ]*', line)
    # if m:
