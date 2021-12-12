@@ -70,3 +70,6 @@ Also, we add a basic TEI header by creating ElementTree Elements using the [appe
 
 ## 4. XSLT transformation
 ...
+
+## 5. Possible improvements
+...
