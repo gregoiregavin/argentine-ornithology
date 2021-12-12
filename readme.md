@@ -54,7 +54,7 @@ From here, we're able to create and text the regular expressions to find our dat
 The following regex were found :
  - Get Orders : ```Order\s[IVXL]*\.\s[A-Z \Æ]*\.```
  - Get Families : ```Fam\.\s[IVXL]*\.\s[A-Z \Æ]*```
- - Get Birds : ```[0-9]{3}\.\s[A-Z \Æ]{7,}``` 
+ - Get Birds : ```[0-9]{3}\.\s[A-Z \Ë\Œ\Æ]{7,}``` 
 
 
 
