@@ -47,16 +47,12 @@ As the table of content of the original document is humanly readable and accessi
 - 35 Families
 - 204 Birds
 
-
 ### 2.3 Test regex
-From here, we're able to create and text the regular expressions to find our data. Here's an example as how we tested the regex to extract the Orders. We used ```re.findall()``` and ```print(len())``` functions to check if the results were similar as expected.
+From here, we're able to create and text the regular expressions to find our data. We checked the results with the [checkResults function](utils/utils.py) and found the following regex working as expected :
 
-The following regex were found :
  - Get Orders : ```Order\s[IVXL]*\.\s[A-Z \Æ]*\.```
  - Get Families : ```Fam\.\s[IVXL]*\.\s[A-Z \Æ]*```
  - Get Birds : ```[0-9]{3}\.\s[A-Z \Ë\Œ\Æ]{7,}``` 
-
-
 
 ## 3. XML generation
 ...
