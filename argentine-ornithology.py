@@ -27,10 +27,11 @@ for line in fileinput.input(files='files/1_birds.txt',encoding='utf-8'):
         nom = ET.SubElement(family, 'nom', attrib = {'n': m.group()})
         nom.text = m.group()
         
-   # m = re.match(r'(?m)^(_Hab\._ .*)$', line)
-   # if m:
-       # print(line)
-       # family.text = m.group(1)
+    m = re.match(r'(?m)^(_Hab\._ .*)$', line)
+    if m:
+        print(line)
+        habitat = ET.SubElement(nom, 'habitat', attrib = {'n': m.group()})
+        habitat.text = m.group()
 
 # Make the output readable
 ET.indent(tree)
