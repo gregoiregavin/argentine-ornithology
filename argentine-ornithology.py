@@ -40,7 +40,7 @@ for line in fileinput.input(files='files/1_birds.txt', encoding='utf-8'):
         habitat = ET.SubElement(nom, 'habitat', attrib = {'n': m.group()})
         habitat.text = m.group()
 
-# Check the result and print errors
+# Check the results and print errors
 checkResults(countOrders, countFamilies, countBirds)
 
 # Make the output readable
