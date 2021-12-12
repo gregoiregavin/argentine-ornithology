@@ -9,7 +9,7 @@ import xml.etree.ElementTree as ET
 tree = ET.ElementTree(element = ET.Element('document'))
 root = tree.getroot()
 
-for line in fileinput.input(files='1_birds.txt',encoding='utf-8'):
+for line in fileinput.input(files='files/1_birds.txt',encoding='utf-8'):
     m = re.match('Order\s[IVXL]*\.\s[A-Z \Æ]*\.', line)
     if m:
         print(line)
