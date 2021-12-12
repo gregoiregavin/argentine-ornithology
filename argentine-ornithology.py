@@ -2,7 +2,7 @@ import os
 import re
 import fileinput
 import xml.etree.ElementTree as ET
-#from utils.utils import checkResults
+from utils.utils import checkResults
 
 # Vars for regex results check
 #countOrders = 0
