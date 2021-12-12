@@ -60,6 +60,8 @@ From here, we're able to create and text the regular expressions to find our dat
 ## 3. XML structuration and generation
 As the base document is well structured, we use [fileinput library](https://docs.python.org/3/library/fileinput.html) to go through the document line per line. Each time a match is found, we create the relative xml tag using [ElementTree API](https://docs.python.org/3/library/xml.etree.elementtree.html).
 
+Also, we add a basic TEI header by creating ElementTree Elements using the [append()](https://docs.python.org/3/library/xml.etree.elementtree.html#xml.etree.ElementTree.Element.append) function.
+
 **Input** : [1_birds.txt](files/1_birds.txt)
 
 **Output** : [3_birds.xml](files/3_birds.xml)
