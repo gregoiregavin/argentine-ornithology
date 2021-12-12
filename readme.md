@@ -57,6 +57,10 @@ The following regex were found :
  - Get Scientific Name : ```[0-9]{3}\. [A-Z \Æ \Ë \Œ]*[, [| /(]```
  - Get Habitat : ```Hab\.[A-Za-z ]*```
 
+Si jamais l'aide que le prof à donné combine Birds+ Scientific name : ```(r'(?m)^([0-9]{3}\. .*)$'```
+J'ai utilisé la même méthode (c'est à dire qu'il ne s'arrête pas au point mais à la fin de la ligne, il met ^ au début et $ à la fin). 
+Ce qui donne pour Habitat ```(r'(?m)^(_Hab\._ .*)$'``` par contre certains habitats sont tellement longs qu'ils sont sur deux lignes... 
+
 ## 3. XML generation
 ...
 
