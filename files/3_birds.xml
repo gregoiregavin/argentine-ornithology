@@ -1,1389 +1,465 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <document>
-	<order n="II">
-		MACROCHIRES
-		<family n="XX">
-			TROCHILIDÆ, or HUMMING-BIRDS.
-			<bird n="230">
-				OREOTROCHILUS LEUCOPLEURUS, Gould.
-				<habitat>
-					Chili and Northern Argentina.
-				</habitat>
-			</bird>
-			<bird n="231">
-				CHÆTOCERCUS BURMEISTERI, Scl.
-				<habitat>
-					Tucuman.
-				</habitat>
-			</bird>
-			<bird n="232">
-				SPARGANURA SAPPHO (Lesson).
-				<habitat>
-					Bolivia and North-western Argentina.
-				</habitat>
-			</bird>
-			<bird n="233">
-				PETASOPHORA SERRIROSTRIS (Vieill.).
-				<habitat>
-					S.E. Brazil.
-				</habitat>
-			</bird>
-			<bird n="234">
-				PATAGONA GIGAS (Vieill.).
-				<habitat>
-					Andes of Ecuador, Bolivia, and Peru, Chili, Patagonia, and
-				</habitat>
-			</bird>
-			<bird n="235">
-				CALLIPERIDIA FURCIFERA (Shaw).
-				<habitat>
-					S. Brazil, Paraguay, and Argentina.
-				</habitat>
-			</bird>
-			<bird n="236">
-				LEUCIPPUS CHIONOGASTER (Tsch.).
-				<habitat>
-					Peru, Bolivia, and Northern Argentina.
-				</habitat>
-			</bird>
-			<bird n="237">
-				LEUCOCHLORIS ALBICOLLIS (Vieill.).
-				<habitat>
-					S.E. Brazil, Paraguay, and N. Argentina.
-				</habitat>
-			</bird>
-			<bird n="238">
-				CHRYSURONIA RUFICOLLIS (Vieill.).
-				<habitat>
-					S. Brazil, Paraguay, and N. Argentina.
-				</habitat>
-			</bird>
-			<bird n="239">
-				HYLOCHARIS SAPPHIRINA (Gm.).
-				<habitat>
-					Southern Brazil, Paraguay, and Northern Argentina.
-				</habitat>
-			</bird>
-			<bird n="240">
-				CHLOROSTILBON SPLENDIDUS (Vieill.).
-				<habitat>
-					South Brazil, Paraguay, and Argentina.
-				</habitat>
-			</bird>
-		</family>
-		<family n="XXI">
-			CYPSELIDÆ, or SWIFTS.
-			<bird n="241">
-				HEMIPROCNE ZONARIS (Shaw).
-				<habitat>
-					Central and South America down to Argentina.
-				</habitat>
-			</bird>
-		</family>
-		<family n="XXII">
-			CAPRIMULGIDÆ, or GOATSUCKERS.
-			<bird n="242">
-				PODAGER NACUNDA (Vieill.).
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-			<bird n="243">
-				CHORDEILES VIRGINIANUS (Gm.).
-				<habitat>
-					North and South America.
-				</habitat>
-			</bird>
-			<bird n="244">
-				ANTROSTOMUS PARVULUS (Gould).
-				<habitat>
-					Brazil and Argentina.
-				</habitat>
-			</bird>
-			<bird n="245">
-				STENOPSIS BIFASCIATA (Gould).
-				<habitat>
-					Chili, Patagonia, and Argentina.
-				</habitat>
-			</bird>
-			<bird n="246">
-				HYDROPSALIS FURCIFERA (Vieill.).
-				<habitat>
-					Paraguay and Argentina.
-				</habitat>
-			</bird>
-			<bird n="247">
-				HELEOTHREPTUS ANOMALUS (GOULD).
-				<habitat>
-					South Brazil and Argentina.
-				</habitat>
-			</bird>
-		</family>
-	</order>
-	<order n="III">
-		PICI
-		<family n="XXIII">
-			PICIDÆ, or WOODPECKERS.
-			<bird n="248">
-				CAMPEPHILUS BOIÆI (Wagl.).
-				<habitat>
-					Bolivia and Northern Argentina.
-				</habitat>
-			</bird>
-			<bird n="249">
-				CAMPEPHILUS SCHULZI (Cab.).
-			</bird>
-			<bird n="250">
-				DRYOCOPUS ERYTHROPS (Val.).
-				<habitat>
-					Brazil.
-				</habitat>
-			</bird>
-			<bird n="251">
-				PICUS MIXTUS, Bodd.
-				<habitat>
-					South Brazil and Argentina.
-				</habitat>
-			</bird>
-			<bird n="252">
-				PICUS CACTORUM, d'Orb. et Lafr.
-				<habitat>
-					Bolivia and Northern Argentina.
-				</habitat>
-			</bird>
-			<bird n="253">
-				CHLORONERPES AFFINIS (Wagl.).
-				<habitat>
-					Brazil.
-				</habitat>
-			</bird>
-			<bird n="254">
-				CHLORONERPES FRONTALIS, Cab.
-				<habitat>
-					Tucuman.
-				</habitat>
-			</bird>
-			<bird n="255">
-				CHLORONERPES AURULENTUS (Licht.).
-				<habitat>
-					Brazil.
-				</habitat>
-			</bird>
-			<bird n="256">
-				CHLORONERPES TUCUMANUS, Cab.
-				<habitat>
-					Tucuman.
-				</habitat>
-			</bird>
-			<bird n="257">
-				CHRYSOPTILUS CRISTATUS (Vieill.).
-				<habitat>
-					Paraguay and Argentina.
-				</habitat>
-			</bird>
-			<bird n="258">
-				LEUCONERPES CANDIDUS (Otto).
-				<habitat>
-					S. Brazil, Bolivia, Paraguay, and Northern Argentina.
-				</habitat>
-			</bird>
-			<bird n="259">
-				COLAPTES LONGIROSTRIS, Cab.
-				<habitat>
-					Tucuman.
-				</habitat>
-			</bird>
-			<bird n="260">
-				COLAPTES AGRICOLA (Malh.).
-				<habitat>
-					Argentina and Patagonia.
-				</habitat>
-			</bird>
-		</family>
-	</order>
-	<order n="IV">
-		COCCYGES
-		<family n="XXIV">
-			ALCEDINIDÆ, or KINGFISHERS.
-			<bird n="261">
-				CERYLE TORQUATA (Linn.).
-				<habitat>
-					Central and South America.
-				</habitat>
-			</bird>
-			<bird n="262">
-				CERYLE AMAZONA (Lath.).
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-			<bird n="263">
-				CERYLE AMERICANA (Gm.).
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-		</family>
-		<family n="XXV">
-			TROGONIDÆ, or TROGONS.
-			<bird n="264">
-				TROGON VARIEGATUS, Spix.
-				<habitat>
-					Brazil and N. Argentina.
-				</habitat>
-			</bird>
-			<bird n="265">
-				TROGON SURUCURA, Vieill.
-				<habitat>
-					S. Brazil, Paraguay, and N. E. Argentina.
-				</habitat>
-			</bird>
-		</family>
-		<family n="XXVI">
-			BUCCONIDÆ, or PUFF-BIRDS.
-			<bird n="266">
-				BUCCO MACULATUS (Gm.).
-				<habitat>
-					S.E. Brazil.
-				</habitat>
-			</bird>
-		</family>
-		<family n="XXVII">
-			CUCULIDÆ, or CUCKOOS.
-			<bird n="267">
-				CROTOPHAGA ANI, Linn.
-				<habitat>
-					Veragua and South America down to Northern Argentina.
-				</habitat>
-			</bird>
-			<bird n="268">
-				GUIRA PIRIRIGUA (Vieill.).
-				<habitat>
-					Brazil, Paraguay, and Argentina.
-				</habitat>
-			</bird>
-			<bird n="269">
-				DIPLOPTERUS NÆVIUS (Gm.).
-				<habitat>
-					Mexico, and Central and South America down to Argentina.
-				</habitat>
-			</bird>
-			<bird n="270">
-				PIAYA CAYANA (Linn.).
-				<habitat>
-					Central and South America.
-				</habitat>
-			</bird>
-			<bird n="271">
-				COCCYZUS AMERICANUS (Linn.).
-				<habitat>
-					North and Central America and Colombia; occasional in Brazil and
-				</habitat>
-			</bird>
-			<bird n="272">
-				COCCYZUS MELANOCORYPHUS, Vieill.
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-			<bird n="273">
-				COCCYZUS CINEREUS, Vieill.
-				<habitat>
-					Paraguay and Argentine Republic.
-				</habitat>
-			</bird>
-			<bird n="274">
-				COCCYZUS PUMILUS, Strickl.
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-		</family>
-		<family n="XXVIII">
-			RHAMPHASTIDÆ, or TOUCANS.
-			<bird n="275">
-				RHAMPHASTOS TOCO, Gm.
-				<habitat>
-					Guiana, Amazonia, Brazil, Paraguay, and N. Argentina.
-				</habitat>
-			</bird>
-		</family>
-	</order>
-	<order n="V">
-		PSITTACI
-		<family n="XXIX">
-			PSITTACIDÆ, or PARROTS.
-			<bird n="276">
-				CONURUS PATAGONUS (Vieill).
-				<habitat>
-					Argentina and Patagonia.
-				</habitat>
-			</bird>
-			<bird n="277">
-				CONURUS ACUTICAUDATUS (Vieill.).
-				<habitat>
-					Bolivia, Paraguay, and N. Argentina.
-				</habitat>
-			</bird>
-			<bird n="278">
-				CONURUS MITRATUS, Tsch.
-				<habitat>
-					Peru, Bolivia, and Northern Argentina.
-				</habitat>
-			</bird>
-			<bird n="279">
-				CONURUS MOLINÆ, Mass. et Souanc.
-				<habitat>
-					Bolivia, S. Brazil, and N. Argentina.
-				</habitat>
-			</bird>
-			<bird n="280">
-				BOLBORHYNCHUS MONACHUS (Bodd.).
-				<habitat>
-					Paraguay, Uruguay, and Argentina.
-				</habitat>
-			</bird>
-			<bird n="281">
-				BOLBORHYNCHUS AYMARA (d'Orb.).
-				<habitat>
-					Bolivia and N. Argentina.
-				</habitat>
-			</bird>
-			<bird n="282">
-				BOLBORHYNCHUS RUBRIROSTRIS (Burm.).
-				<habitat>
-					Argentina.
-				</habitat>
-			</bird>
-			<bird n="283">
-				CHRYSOTIS VINACEA (Max.).
-				<habitat>
-					S. Brazil, Paraguay, and N. Argentina.
-				</habitat>
-			</bird>
-			<bird n="284">
-				CHRYSOTIS ÆSTIVA (Linn.).
-				<habitat>
-					Brazil, Paraguay, and N. Argentina.
-				</habitat>
-			</bird>
-			<bird n="285">
-				PIONUS MAXIMILIANI (Kuhl).
-				<habitat>
-					Brazil and N. Argentina.
-				</habitat>
-			</bird>
-		</family>
-	</order>
-	<order n="VI">
-		STRIGES
-		<family n="XXX">
-			STRIGIDÆ, or BARN-OWLS.
-			<bird n="286">
-				STRIX FLAMMEA, Linn.
-				<habitat>
-					Old and New Worlds.
-				</habitat>
-			</bird>
-		</family>
-		<family n="XXXI">
-			BUBONIDÆ, or OWLS.
-			<bird n="287">
-				ASIO BRACHYOTUS (Forst.).
-				<habitat>
-					Old and New Worlds.
-				</habitat>
-			</bird>
-			<bird n="288">
-				BUBO VIRGINIANUS (Gm.).
-				<habitat>
-					North and South America.
-				</habitat>
-			</bird>
-			<bird n="289">
-				SCOPS BRASILIANUS (Gm.).
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-			<bird n="290">
-				SPEOTYTO CUNICULARIA (Mol.).
-				<habitat>
-					North and South America.
-				</habitat>
-			</bird>
-			<bird n="291">
-				GLAUCIDIUM NANUM (King).
-				<habitat>
-					La Plata, Patagonia, and Chili.
-				</habitat>
-			</bird>
-		</family>
-	</order>
-	<order n="VII">
-		ACCIPITRES
-		<family n="XXXII">
-			FALCONIDÆ, or FALCONS.
-			<bird n="292">
-				CIRCUS CINEREUS (Vieill.).
-				<habitat>
-					Southern portion of South America.
-				</habitat>
-			</bird>
-			<bird n="293">
-				CIRCUS MACROPTERUS, Vieill.
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-			<bird n="294">
-				ASTURINA PUCHERANI, Verr.
-				<habitat>
-					South Brazil, Paraguay, and Argentina.
-				</habitat>
-			</bird>
-			<bird n="295">
-				BUTEO SWAINSONI, Bp.
-				<habitat>
-					North and South America.
-				</habitat>
-			</bird>
-			<bird n="296">
-				BUTEO ALBICAUDATUS (Vieill.).
-				<habitat>
-					Southern and Central America.
-				</habitat>
-			</bird>
-			<bird n="297">
-				BUTEO ERYTHRONOTUS (King).
-				<habitat>
-					Southern portion of South America.
-				</habitat>
-			</bird>
-			<bird n="298">
-				ANTENOR UNICINCTUS (Temm.).
-				<habitat>
-					North and South America.
-				</habitat>
-			</bird>
-			<bird n="299">
-				HETEROSPIZIAS MERIDIONALIS (Lath.).
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-			<bird n="300">
-				GERANOAËTUS MELANOLEUCUS (Vieill.).
-				<habitat>
-					Whole southern half of South America, and western portion of
-				</habitat>
-			</bird>
-			<bird n="301">
-				HARPYHALIAËTUS CORONATUS (Vieill.).
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-			<bird n="302">
-				GERANOSPIZIAS CÆRULESCENS (Vieill.).
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-			<bird n="303">
-				FALCO PEREGRINUS, Linn.
-				<habitat>
-					Old and New Worlds.
-				</habitat>
-			</bird>
-			<bird n="304">
-				FALCO FUSCO-CÆRULESCENS, Vieill.
-				<habitat>
-					Central and South America.
-				</habitat>
-			</bird>
-			<bird n="305">
-				TINNUNCULUS CINNAMOMINUS (Sw.).
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-			<bird n="306">
-				ELANUS LEUCURUS (Vieill.).
-				<habitat>
-					Central and South America.
-				</habitat>
-			</bird>
-			<bird n="307">
-				ROSTRHAMUS SOCIABILIS (Vieill.).
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-			<bird n="308">
-				SPIZIAPTERYX CIRCUMCINCTUS (Kaup).
-				<habitat>
-					Argentina.
-				</habitat>
-			</bird>
-			<bird n="309">
-				MILVAGO CHIMANGO (Vieill.).
-				<habitat>
-					Southern half of South America.
-				</habitat>
-			</bird>
-			<bird n="310">
-				POLYBORUS THARUS (Mol.).
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-		</family>
-		<family n="XXXIII">
-			CATHARTIDÆ, or CONDORS
-			<bird n="311">
-				CATHARTES AURA (Linn.).
-				<habitat>
-					Temperate and Tropical America, and south to Chili and the
-				</habitat>
-			</bird>
-			<bird n="312">
-				CATHARTES ATRATUS (Bartram).
-				<habitat>
-					Eastern U.S., and Central and Southern America to Chili and the
-				</habitat>
-			</bird>
-			<bird n="313">
-				SARCORHAMPHUS GRYPHUS (Linn.).
-				<habitat>
-					Andes of South America, and adjacent ranges in La Plata.
-				</habitat>
-			</bird>
-		</family>
-	</order>
-	<order n="VIII">
-		STEGANOPODES
-		<family n="XXXIV">
-			PHALACROCORACIDÆ, or CORMORANTS.
-			<bird n="314">
-				PHALACROCORAX BRASILIANUS (Gm.).
-				<habitat>
-					Sea-coasts and inland waters of Central and South America.
-				</habitat>
-			</bird>
-		</family>
-	</order>
-	<order n="IX">
-		HERODIONES
-		<family n="XXXV">
-			ARDEIDÆ, or HERONS.
-			<bird n="315">
-				ARDEA COCOI, Linn.
-				<habitat>
-					North and South America.
-				</habitat>
-			</bird>
-			<bird n="316">
-				ARDEA EGRETTA (Gm.).
-				<habitat>
-					North and South America.
-				</habitat>
-			</bird>
-			<bird n="317">
-				ARDEA CANDIDISSIMA, Gm.
-				<habitat>
-					North and South America.
-				</habitat>
-			</bird>
-			<bird n="318">
-				ARDEA CÆRULEA, Linn.
-				<habitat>
-					North and South America.
-				</habitat>
-			</bird>
-			<bird n="319">
-				ARDEA SIBILATRIX, Temm.
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-			<bird n="320">
-				BUTORIDES CYANURUS (Vieill.).
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-			<bird n="321">
-				ARDETTA INVOLUCRIS (Vieill.).
-				<habitat>
-					Paraguay and Argentina.
-				</habitat>
-			</bird>
-			<bird n="322">
-				TIGRISOMA MARMORATUM (Vieill.).
-				<habitat>
-					Paraguay and N. Argentina.
-				</habitat>
-			</bird>
-			<bird n="323">
-				NYCTICORAX OBSCURUS, Bp.
-				<habitat>
-					Southern half of South America.
-				</habitat>
-			</bird>
-		</family>
-		<family n="XXXVI">
-			CICONIIDÆ, or STORKS.
-			<bird n="324">
-				MYCTERIA AMERICANA, Linn.
-				<habitat>
-					Texas and Central and South America to La Plata.
-				</habitat>
-			</bird>
-			<bird n="325">
-				EUXENURA MAGUARI (Gm.).
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-			<bird n="326">
-				TANTALUS LOCULATOR, Linn.
-				<habitat>
-					North and South America.
-				</habitat>
-			</bird>
-		</family>
-		<family n="XXXVII">
-			PLATALEIDÆ, or IBISES.
-			<bird n="327">
-				PLEGADIS GUARAUNA (Linn.).
-				<habitat>
-					Central and South America.
-				</habitat>
-			</bird>
-			<bird n="328">
-				THERISTICUS CAUDATUS (Bodd.).
-				<habitat>
-					Antarctic South America.
-				</habitat>
-			</bird>
-			<bird n="329">
-				HARPIPRION CÆRULESCENS (Vieill.).
-				<habitat>
-					South-east Brazil and Argentina.
-				</habitat>
-			</bird>
-			<bird n="330">
-				PHIMOSUS INFUSCATUS (Licht.).
-				<habitat>
-					South America from Colombia south to Argentina.
-				</habitat>
-			</bird>
-			<bird n="331">
-				AJAJA ROSEA, Reichenb.
-				<habitat>
-					North and South America.
-				</habitat>
-			</bird>
-		</family>
-		<family n="XXXVIII">
-			PHŒNICOPTERIDÆ, or FLAMINGOES.
-			<bird n="332">
-				PHŒNICOPTERUS IGNIPALLIATUS, Geoffr. et d'Orb.
-				<habitat>
-					Southern portions of South America.
-				</habitat>
-			</bird>
-			<bird n="333">
-				PHŒNICOPTERUS ANDINUS, Philippi.
-				<habitat>
-					Andes of Bolivia and Northern Chili.
-				</habitat>
-			</bird>
-		</family>
-	</order>
-	<order n="X">
-		ANSERES
-		<family n="XXXIX">
-			PALAMEDEIDÆ, or SCREAMERS.
-			<bird n="334">
-				CHAUNA CHAVARIA (Linn.).
-				<habitat>
-					Southern Brazil, Paraguay, and La Plata.
-				</habitat>
-			</bird>
-		</family>
-		<family n="XL">
-			ANATIDÆ, or DUCKS.
-			<bird n="335">
-				BERNICLA MELANOPTERA (Eyton).
-				<habitat>
-					Andes of Peru, Bolivia, and Northern Chili.
-				</habitat>
-			</bird>
-			<bird n="336">
-				BERNICLA DISPAR, Ph. et Landb.
-				<habitat>
-					Chili and Argentina.
-				</habitat>
-			</bird>
-			<bird n="337">
-				BERNICLA POLIOCEPHALA, Gray.
-				<habitat>
-					Patagonia, Southern Chili, and Southern Argentina.
-				</habitat>
-			</bird>
-			<bird n="338">
-				CYGNUS NIGRICOLLIS, Gm.
-				<habitat>
-					Argentina, Chili, and Patagonia.
-				</habitat>
-			</bird>
-			<bird n="339">
-				COSCOROBA CANDIDA (Vieill.).
-				<habitat>
-					Patagonia, Chili, Argentina, and Paraguay.
-				</habitat>
-			</bird>
-			<bird n="340">
-				DENDROCYGNA FULVA (Gm.).
-				<habitat>
-					Mexico and South America.
-				</habitat>
-			</bird>
-			<bird n="341">
-				DENDROCYGNA VIDUATA (Linn.).
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-			<bird n="342">
-				SARCIDIORNIS CARUNCULATA (Licht.).
-				<habitat>
-					Brazil, Paraguay, and northern confines of Argentina.
-				</habitat>
-			</bird>
-			<bird n="343">
-				CAIRINA MOSCHATA (Linn.).
-				<habitat>
-					Central and South America.
-				</habitat>
-			</bird>
-			<bird n="344">
-				HETERONETTA MELANOCEPHALA (Vieill.).
-				<habitat>
-					Southern Brazil, Paraguay, Argentina, and Chili.
-				</habitat>
-			</bird>
-			<bird n="345">
-				QUERQUEDULA CYANOPTERA (Vieill.).
-				<habitat>
-					North and South America.
-				</habitat>
-			</bird>
-			<bird n="346">
-				QUERQUEDULA FLAVIROSTRIS (Vieill.).
-				<habitat>
-					Argentina, Chili, and Patagonia.
-				</habitat>
-			</bird>
-			<bird n="347">
-				QUERQUEDULA VERSICOLOR (Vieill.).
-				<habitat>
-					Paraguay, Argentina, Patagonia, and Chili.
-				</habitat>
-			</bird>
-			<bird n="348">
-				QUERQUEDULA TORQUATA (Vieill.).
-				<habitat>
-					Paraguay and Argentina.
-				</habitat>
-			</bird>
-			<bird n="349">
-				QUERQUEDULA BRASILIENSIS (Gm.).
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-			<bird n="350">
-				DAFILA SPINICAUDA (Vieill.).
-				<habitat>
-					Southern Brazil, Peru, Paraguay, Argentina, Chili, and Patagonia.
-				</habitat>
-			</bird>
-			<bird n="351">
-				DAFILA BAHAMENSIS (Linn.).
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-			<bird n="352">
-				MARECA SIBILATRIX (Poepp.).
-				<habitat>
-					Paraguay, Argentina, Chili, and Patagonia.
-				</habitat>
-			</bird>
-			<bird n="353">
-				SPATULA PLATALEA (Vieill.).
-				<habitat>
-					Argentina, Patagonia, and Chili.
-				</habitat>
-			</bird>
-			<bird n="354">
-				METOPIANA PEPOSACA (Vieill.).
-				<habitat>
-					Paraguay, Argentina, Chili, and Patagonia.
-				</habitat>
-			</bird>
-			<bird n="355">
-				ERISMATURA FERRUGINEA, Eyton.
-				<habitat>
-					Central Peru, Chili, and Argentina.
-				</habitat>
-			</bird>
-			<bird n="356">
-				NOMONYX DOMINICUS (Linn.).
-				<habitat>
-					West Indies and South America.
-				</habitat>
-			</bird>
-		</family>
-	</order>
-	<order n="XI">
-		COLUMBÆ
-		<family n="XLI">
-			COLUMBIDÆ, or PIGEONS.
-			<bird n="357">
-				COLUMBA PICAZURO, Temm.
-				<habitat>
-					S.E. Brazil, Paraguay, and Argentina.
-				</habitat>
-			</bird>
-			<bird n="358">
-				COLUMBA MACULOSA, Temm.
-				<habitat>
-					Peru, Bolivia, Western Argentina, and Patagonia.
-				</habitat>
-			</bird>
-			<bird n="359">
-				ZENAIDA MACULATA (Vieill.).
-				<habitat>
-					South America, from the Amazons to Chili and Buenos Ayres.
-				</habitat>
-			</bird>
-			<bird n="360">
-				METRIOPELIA MELANOPTERA (Mol.).
-				<habitat>
-					Andes of South America.
-				</habitat>
-			</bird>
-			<bird n="361">
-				METRIOPELIA AYMARA (Knip et Prév.).
-				<habitat>
-					Peru, Bolivia, and N.W. Argentina.
-				</habitat>
-			</bird>
-			<bird n="362">
-				COLUMBULA PICUI (Temm.).
-				<habitat>
-					Brazil, Paraguay, Argentina, and Chili.
-				</habitat>
-			</bird>
-			<bird n="363">
-				CHAMÆPELIA TALPACOTI (Temm.).
-				<habitat>
-					Brazil, Paraguay, and Northern Argentina.
-				</habitat>
-			</bird>
-			<bird n="364">
-				ENGYPTILA CHALCAUCHENIA (Scl. et Salv.).
-				<habitat>
-					Argentine Republic.
-				</habitat>
-			</bird>
-		</family>
-	</order>
-	<order n="XII">
-		GALLINÆ
-		<family n="XLII">
-			CRACIDÆ, or CURASSOWS.
-			<bird n="365">
-				CRAX SCLATERI, G. R. Gray.
-				<habitat>
-					Paraguay and N. Argentina.
-				</habitat>
-			</bird>
-			<bird n="366">
-				PENELOPE OBSCURA, Temm.
-				<habitat>
-					Paraguay, Northern Argentina, and Bolivia.
-				</habitat>
-			</bird>
-			<bird n="367">
-				PIPILE CUMANENSIS (Jacq.).
-				<habitat>
-					South America from Venezuela to Northern Argentina.
-				</habitat>
-			</bird>
-			<bird n="368">
-				ORTALIS CANICOLLIS, Wagl.
-				<habitat>
-					Paraguay and Northern Argentina.
-				</habitat>
-			</bird>
-		</family>
-	</order>
-	<order n="XIV">
-		GERANOMORPHÆ
-		<family n="XLIII">
-			RALLIDÆ, or RAILS.
-			<bird n="369">
-				RALLUS MACULATUS, Bodd.
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-			<bird n="370">
-				RALLUS ANTARCTICUS, King.
-				<habitat>
-					Chili, Argentine Republic, and Patagonia.
-				</habitat>
-			</bird>
-			<bird n="371">
-				RALLUS RHYTIRHYNCHUS, Vieill.
-				<habitat>
-					Southern Brazil, Peru, Paraguay, Argentina, Chili, and Patagonia.
-				</habitat>
-			</bird>
-			<bird n="372">
-				RALLUS NIGRICANS, Vieill.
-				<habitat>
-					South Brazil, Paraguay, and Northern Argentina.
-				</habitat>
-			</bird>
-			<bird n="373">
-				ARAMIDES YPECAHA (Vieill.).
-				<habitat>
-					Brazil, Paraguay, and Argentina.
-				</habitat>
-			</bird>
-			<bird n="374">
-				PORZANA LEUCOPYRRHA (Vieill.).
-				<habitat>
-					S. Brazil, Paraguay, and N. Argentina.
-				</habitat>
-			</bird>
-			<bird n="375">
-				PORZANA SALINASI (Philippi).
-				<habitat>
-					Chili and Argentina.
-				</habitat>
-			</bird>
-			<bird n="376">
-				PORZANA NOTATA (Gould).
-				<habitat>
-					Argentina and Patagonia.
-				</habitat>
-			</bird>
-			<bird n="377">
-				PORPHYRIOPS MELANOPS (Vieill.).
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-			<bird n="378">
-				GALLINULA GALEATA (Licht.).
-				<habitat>
-					North and South America.
-				</habitat>
-			</bird>
-			<bird n="379">
-				FULICA ARMILLATA, Vieill.
-				<habitat>
-					South Brazil, Paraguay, Argentina, Chili, and Patagonia.
-				</habitat>
-			</bird>
-			<bird n="380">
-				FULICA LEUCOPYGA, Hartl.
-				<habitat>
-					Uruguay, Argentina, Chili, and Patagonia.
-				</habitat>
-			</bird>
-			<bird n="381">
-				FULICA LEUCOPTERA, Vieill.
-				<habitat>
-					Paraguay, Uruguay, Argentina, and Bolivia.
-				</habitat>
-			</bird>
-		</family>
-		<family n="XLIV">
-			ARAMIDÆ, or COURLANS.
-			<bird n="382">
-				ARAMUS SCOLOPACEUS (Gm.).
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-		</family>
-		<family n="XLV">
-			CARIAMIDÆ or CARIAMAS.
-			<bird n="383">
-				CARIAMA CRISTATA (Linn.).
-				<habitat>
-					Campos of S.E. Brazil and Paraguay.
-				</habitat>
-			</bird>
-			<bird n="384">
-				CHUNGA BURMEISTERI (Hartl.).
-				<habitat>
-					Northern Argentina.
-				</habitat>
-			</bird>
-		</family>
-	</order>
-	<order n="XV">
-		LIMICOLÆ
-		<family n="XLVI">
-			PARRIDÆ, or JACANAS.
-			<bird n="385">
-				PARRA JACANA (Linn.).
-				<habitat>
-					South America from Venezuela down to Buenos Ayres.
-				</habitat>
-			</bird>
-		</family>
-		<family n="XLVII">
-			CHARADRIIDÆ, or PLOVERS.
-			<bird n="386">
-				VANELLUS CAYENNENSIS (Gm.).
-				<habitat>
-					Eastern South America.
-				</habitat>
-			</bird>
-			<bird n="387">
-				CHARADRIUS DOMINICUS, Müller.
-				<habitat>
-					America.
-				</habitat>
-			</bird>
-			<bird n="388">
-				EUDROMIAS MODESTA (Licht.).
-				<habitat>
-					Antarctic America.
-				</habitat>
-			</bird>
-			<bird n="389">
-				ÆGIALITIS FALKLANDICA (Lath.).
-				<habitat>
-					Patagonia, Falkland Islands, Chili, and Argentina.
-				</habitat>
-			</bird>
-			<bird n="390">
-				ÆGIALITIS COLLARIS (Vieill.).
-				<habitat>
-					South and Central America.
-				</habitat>
-			</bird>
-			<bird n="391">
-				OREOPHILUS RUFICOLLIS (Wagl.).
-				<habitat>
-					Southern half of South America.
-				</habitat>
-			</bird>
-			<bird n="392">
-				HÆMATOPUS PALLIATUS, Temm.
-				<habitat>
-					America.
-				</habitat>
-			</bird>
-		</family>
-		<family n="XLVIII">
-			THINOCORIDÆ, or SEED-SNIPES.
-			<bird n="393">
-				THINOCORUS RUMICIVORUS, Eschsch.
-				<habitat>
-					Western Peru, Bolivia, Chili, Patagonia, and Argentina.
-				</habitat>
-			</bird>
-			<bird n="394">
-				THINOCORUS ORBIGNYANUS, Geoffr. et Less.
-				<habitat>
-					Western Peru, Bolivia, Chili, and Western Argentina.
-				</habitat>
-			</bird>
-		</family>
-		<family n="XLIX">
-			SCOLOPACIDÆ, or SNIPES.
-			<bird n="395">
-				HIMANTOPUS BRASILIENSIS, Brehm.
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-			<bird n="396">
-				PHALAROPUS WILSONI, Sabine.
-				<habitat>
-					America, descending southwards during migration to Patagonia.
-				</habitat>
-			</bird>
-			<bird n="397">
-				GALLINAGO PARAGUAIÆ (Vieill.).
-				<habitat>
-					Patagonia, La Plata, and Paraguay.
-				</habitat>
-			</bird>
-			<bird n="398">
-				RHYNCHÆA SEMICOLLARIS (Vieill.).
-				<habitat>
-					Southern parts of South America, from Peru to Patagonia.
-				</habitat>
-			</bird>
-			<bird n="399">
-				TRINGA MACULATA, Vieill.
-				<habitat>
-					Arctic America, migrating south to Patagonia in winter.
-				</habitat>
-			</bird>
-			<bird n="400">
-				TRINGA BAIRDI (Coues).
-				<habitat>
-					Arctic America, migrating south to Patagonia in winter.
-				</habitat>
-			</bird>
-			<bird n="401">
-				TRINGA FUSCICOLLIS, Vieill.
-				<habitat>
-					Arctic America, migrating south to Patagonia in winter.
-				</habitat>
-			</bird>
-			<bird n="402">
-				CALIDRIS ARENARIA (Linn.).
-				<habitat>
-					Arctic regions of both hemispheres, descending far south in
-				</habitat>
-			</bird>
-			<bird n="403">
-				TOTANUS MELANOLEUCUS (Gm.).
-				<habitat>
-					North and South America.
-				</habitat>
-			</bird>
-			<bird n="404">
-				TOTANUS FLAVIPES (Gm.).
-				<habitat>
-					Arctic America, descending south to Chili and Patagonia during
-				</habitat>
-			</bird>
-			<bird n="405">
-				RHYACOPHILUS SOLITARIUS (Wils.).
-				<habitat>
-					Arctic America, descending south to Buenos Ayres during migration.
-				</habitat>
-			</bird>
-			<bird n="406">
-				ACTITURUS BARTRAMIUS (Wils.).
-				<habitat>
-					North America, migrating south to Buenos Ayres.
-				</habitat>
-			</bird>
-			<bird n="407">
-				TRYNGITES RUFESCENS (Vieill.).
-				<habitat>
-					Arctic America, descending south to Buenos Ayres in winter.
-				</habitat>
-			</bird>
-			<bird n="408">
-				LIMOSA HÆMASTICA (Linn.).
-				<habitat>
-					Arctic America, descending south to Central Patagonia in winter.
-				</habitat>
-			</bird>
-			<bird n="409">
-				NUMENIUS BOREALIS (Forst.).
-				<habitat>
-					Arctic America, extending south to Patagonia in winter.
-				</habitat>
-			</bird>
-		</family>
-	</order>
-	<order n="XVI">
-		GAVIÆ
-		<family n="L">
-			LARIDÆ, or GULLS.
-			<bird n="410">
-				RHYNCHOPS MELANURA, Sw.
-				<habitat>
-					Coasts of South America.
-				</habitat>
-			</bird>
-			<bird n="411">
-				PHAËTHUSA MAGNIROSTRIS (Licht.).
-				<habitat>
-					Coasts and rivers of South America.
-				</habitat>
-			</bird>
-			<bird n="412">
-				STERNA MAXIMA, Bodd.
-				<habitat>
-					Coasts of America from Massachusetts to La Plata, and northwards
-				</habitat>
-			</bird>
-			<bird n="413">
-				STERNA TRUDEAUII, Aud.
-				<habitat>
-					Coasts of S.E. Brazil, Argentina, and Chili.
-				</habitat>
-			</bird>
-			<bird n="414">
-				STERNA HIRUNDINACEA, Less.
-				<habitat>
-					Patagonia, Chili, Peru, Argentina, Brazil, and Falkland Islands,
-				</habitat>
-			</bird>
-			<bird n="415">
-				STERNA SUPERCILIARIS, Vieill.
-				<habitat>
-					The large rivers and the coast on the east side of South America.
-				</habitat>
-			</bird>
-			<bird n="416">
-				LARUS DOMINICANUS, Licht.
-				<habitat>
-					Both coasts of South America, from Peru on the west and Rio on
-				</habitat>
-			</bird>
-			<bird n="417">
-				LARUS MACULIPENNIS, Licht.
-				<habitat>
-					Southern Brazil, Uruguay, and La Plata.
-				</habitat>
-			</bird>
-			<bird n="418">
-				LARUS CIRRHOCEPHALUS, Vieill.
-				<habitat>
-					South Brazil, Uruguay, and La Plata, also coast of Peru.
-				</habitat>
-			</bird>
-		</family>
-	</order>
-	<order n="XVII">
-		PYGOPODES
-		<family n="LI">
-			PODICIPEDIDÆ, or GREBES.
-			<bird n="419">
-				ÆCHMOPHORUS MAJOR (Bodd.).
-				<habitat>
-					South America.
-				</habitat>
-			</bird>
-			<bird n="420">
-				PODICEPS CALIPARÆUS, Less.
-				<habitat>
-					Antarctic America, north to Cordova.
-				</habitat>
-			</bird>
-			<bird n="421">
-				PODICEPS ROLLANDI, Quoy et Gaim.
-				<habitat>
-					Antarctic America, north to Cordova.
-				</habitat>
-			</bird>
-			<bird n="422">
-				TACHYBAPTES DOMINICUS (Linn.).
-				<habitat>
-					Central and South America.
-				</habitat>
-			</bird>
-			<bird n="423">
-				PODILYMBUS PODICEPS (Linn.).
-				<habitat>
-					North and South America.
-				</habitat>
-			</bird>
-		</family>
-	</order>
-	<order n="XVIII">
-		IMPENNES
-		<family n="LII">
-			APTENODYTIDÆ, or PENGUINS.
-			<bird n="424">
-				SPHENISCUS MAGELLANICUS (Forst.).
-				<habitat>
-					Coasts of Antarctic America and Falkland Islands.
-				</habitat>
-			</bird>
-		</family>
-	</order>
-	<order n="XIX">
-		CRYPTURI
-		<family n="LIII">
-			TINAMIDÆ, or TINAMOUS.
-			<bird n="425">
-				CRYPTURUS OBSOLETUS, Temm.
-				<habitat>
-					Southern Brazil, Paraguay, and Northern Argentina.
-				</habitat>
-			</bird>
-			<bird n="426">
-				CRYPTURUS TATAUPA (Temm.).
-				<habitat>
-					South Brazil, Paraguay, and Northern Argentina.
-				</habitat>
-			</bird>
-			<bird n="427">
-				RHYNCHOTUS RUFESCENS (Temm.).
-				<habitat>
-					South Brazil, Paraguay, and Argentina.
-				</habitat>
-			</bird>
-			<bird n="428">
-				NOTHOPROCTA PENTLANDI (Gray).
-				<habitat>
-					Andes of Bolivia and Northern Argentina.
-				</habitat>
-			</bird>
-			<bird n="429">
-				NOTHOPROCTA CINERASCENS (Burm.).
-				<habitat>
-					Northern Argentina.
-				</habitat>
-			</bird>
-			<bird n="430">
-				NOTHURA MACULOSA (Temm.)
-				<habitat>
-					Argentine Republic.
-				</habitat>
-			</bird>
-			<bird n="431">
-				NOTHURA DARWINI, Gray.
-				<habitat>
-					Northern Patagonia.
-				</habitat>
-			</bird>
-			<bird n="432">
-				CALODROMAS ELEGANS (d'Orb. et Geoff.).
-				<habitat>
-					Northern Patagonia and Western Argentina.
-				</habitat>
-			</bird>
-		</family>
-	</order>
-	<order n="XX">
-		STRUTHIONES
-		<family n="LIV">
-			RHEIDÆ, or RHEAS.
-			<bird n="433">
-				RHEA AMERICANA, Lath.
-				<habitat>
-					Pampas of S. America north of Rio Negro.
-				</habitat>
-			</bird>
-			<bird n="434">
-				RHEA DARWINI, Gould.
-				<habitat>
-					Patagonia south of the Rio Negro.
-				</habitat>
-			</bird>
-		</family>
-	</order>
+  <order n="II">MACROCHIRES<family n="XX">TROCHILIDÆ, or HUMMING-BIRDS.<bird n="230">OREOTROCHILUS LEUCOPLEURUS, Gould.<habitat>Chili and Northern Argentina.</habitat>
+      </bird>
+      <bird n="231">CHÆTOCERCUS BURMEISTERI, Scl.<habitat>Tucuman.</habitat>
+      </bird>
+      <bird n="232">SPARGANURA SAPPHO (Lesson).<habitat>Bolivia and North-western Argentina.</habitat>
+      </bird>
+      <bird n="233">PETASOPHORA SERRIROSTRIS (Vieill.).<habitat>S.E. Brazil.</habitat>
+      </bird>
+      <bird n="234">PATAGONA GIGAS (Vieill.).<habitat>Andes of Ecuador, Bolivia, and Peru, Chili, Patagonia, and</habitat>
+      </bird>
+      <bird n="235">CALLIPERIDIA FURCIFERA (Shaw).<habitat>S. Brazil, Paraguay, and Argentina.</habitat>
+      </bird>
+      <bird n="236">LEUCIPPUS CHIONOGASTER (Tsch.).<habitat>Peru, Bolivia, and Northern Argentina.</habitat>
+      </bird>
+      <bird n="237">LEUCOCHLORIS ALBICOLLIS (Vieill.).<habitat>S.E. Brazil, Paraguay, and N. Argentina.</habitat>
+      </bird>
+      <bird n="238">CHRYSURONIA RUFICOLLIS (Vieill.).<habitat>S. Brazil, Paraguay, and N. Argentina.</habitat>
+      </bird>
+      <bird n="239">HYLOCHARIS SAPPHIRINA (Gm.).<habitat>Southern Brazil, Paraguay, and Northern Argentina.</habitat>
+      </bird>
+      <bird n="240">CHLOROSTILBON SPLENDIDUS (Vieill.).<habitat>South Brazil, Paraguay, and Argentina.</habitat>
+      </bird>
+    </family>
+    <family n="XXI">CYPSELIDÆ, or SWIFTS.<bird n="241">HEMIPROCNE ZONARIS (Shaw).<habitat>Central and South America down to Argentina.</habitat>
+      </bird>
+    </family>
+    <family n="XXII">CAPRIMULGIDÆ, or GOATSUCKERS.<bird n="242">PODAGER NACUNDA (Vieill.).<habitat>South America.</habitat>
+      </bird>
+      <bird n="243">CHORDEILES VIRGINIANUS (Gm.).<habitat>North and South America.</habitat>
+      </bird>
+      <bird n="244">ANTROSTOMUS PARVULUS (Gould).<habitat>Brazil and Argentina.</habitat>
+      </bird>
+      <bird n="245">STENOPSIS BIFASCIATA (Gould).<habitat>Chili, Patagonia, and Argentina.</habitat>
+      </bird>
+      <bird n="246">HYDROPSALIS FURCIFERA (Vieill.).<habitat>Paraguay and Argentina.</habitat>
+      </bird>
+      <bird n="247">HELEOTHREPTUS ANOMALUS (GOULD).<habitat>South Brazil and Argentina.</habitat>
+      </bird>
+    </family>
+  </order>
+  <order n="III">PICI<family n="XXIII">PICIDÆ, or WOODPECKERS.<bird n="248">CAMPEPHILUS BOIÆI (Wagl.).<habitat>Bolivia and Northern Argentina.</habitat>
+      </bird>
+      <bird n="249">CAMPEPHILUS SCHULZI (Cab.).</bird>
+      <bird n="250">DRYOCOPUS ERYTHROPS (Val.).<habitat>Brazil.</habitat>
+      </bird>
+      <bird n="251">PICUS MIXTUS, Bodd.<habitat>South Brazil and Argentina.</habitat>
+      </bird>
+      <bird n="252">PICUS CACTORUM, d'Orb. et Lafr.<habitat>Bolivia and Northern Argentina.</habitat>
+      </bird>
+      <bird n="253">CHLORONERPES AFFINIS (Wagl.).<habitat>Brazil.</habitat>
+      </bird>
+      <bird n="254">CHLORONERPES FRONTALIS, Cab.<habitat>Tucuman.</habitat>
+      </bird>
+      <bird n="255">CHLORONERPES AURULENTUS (Licht.).<habitat>Brazil.</habitat>
+      </bird>
+      <bird n="256">CHLORONERPES TUCUMANUS, Cab.<habitat>Tucuman.</habitat>
+      </bird>
+      <bird n="257">CHRYSOPTILUS CRISTATUS (Vieill.).<habitat>Paraguay and Argentina.</habitat>
+      </bird>
+      <bird n="258">LEUCONERPES CANDIDUS (Otto).<habitat>S. Brazil, Bolivia, Paraguay, and Northern Argentina.</habitat>
+      </bird>
+      <bird n="259">COLAPTES LONGIROSTRIS, Cab.<habitat>Tucuman.</habitat>
+      </bird>
+      <bird n="260">COLAPTES AGRICOLA (Malh.).<habitat>Argentina and Patagonia.</habitat>
+      </bird>
+    </family>
+  </order>
+  <order n="IV">COCCYGES<family n="XXIV">ALCEDINIDÆ, or KINGFISHERS.<bird n="261">CERYLE TORQUATA (Linn.).<habitat>Central and South America.</habitat>
+      </bird>
+      <bird n="262">CERYLE AMAZONA (Lath.).<habitat>South America.</habitat>
+      </bird>
+      <bird n="263">CERYLE AMERICANA (Gm.).<habitat>South America.</habitat>
+      </bird>
+    </family>
+    <family n="XXV">TROGONIDÆ, or TROGONS.<bird n="264">TROGON VARIEGATUS, Spix.<habitat>Brazil and N. Argentina.</habitat>
+      </bird>
+      <bird n="265">TROGON SURUCURA, Vieill.<habitat>S. Brazil, Paraguay, and N. E. Argentina.</habitat>
+      </bird>
+    </family>
+    <family n="XXVI">BUCCONIDÆ, or PUFF-BIRDS.<bird n="266">BUCCO MACULATUS (Gm.).<habitat>S.E. Brazil.</habitat>
+      </bird>
+    </family>
+    <family n="XXVII">CUCULIDÆ, or CUCKOOS.<bird n="267">CROTOPHAGA ANI, Linn.<habitat>Veragua and South America down to Northern Argentina.</habitat>
+      </bird>
+      <bird n="268">GUIRA PIRIRIGUA (Vieill.).<habitat>Brazil, Paraguay, and Argentina.</habitat>
+      </bird>
+      <bird n="269">DIPLOPTERUS NÆVIUS (Gm.).<habitat>Mexico, and Central and South America down to Argentina.</habitat>
+      </bird>
+      <bird n="270">PIAYA CAYANA (Linn.).<habitat>Central and South America.</habitat>
+      </bird>
+      <bird n="271">COCCYZUS AMERICANUS (Linn.).<habitat>North and Central America and Colombia; occasional in Brazil and</habitat>
+      </bird>
+      <bird n="272">COCCYZUS MELANOCORYPHUS, Vieill.<habitat>South America.</habitat>
+      </bird>
+      <bird n="273">COCCYZUS CINEREUS, Vieill.<habitat>Paraguay and Argentine Republic.</habitat>
+      </bird>
+      <bird n="274">COCCYZUS PUMILUS, Strickl.<habitat>South America.</habitat>
+      </bird>
+    </family>
+    <family n="XXVIII">RHAMPHASTIDÆ, or TOUCANS.<bird n="275">RHAMPHASTOS TOCO, Gm.<habitat>Guiana, Amazonia, Brazil, Paraguay, and N. Argentina.</habitat>
+      </bird>
+    </family>
+  </order>
+  <order n="V">PSITTACI<family n="XXIX">PSITTACIDÆ, or PARROTS.<bird n="276">CONURUS PATAGONUS (Vieill).<habitat>Argentina and Patagonia.</habitat>
+      </bird>
+      <bird n="277">CONURUS ACUTICAUDATUS (Vieill.).<habitat>Bolivia, Paraguay, and N. Argentina.</habitat>
+      </bird>
+      <bird n="278">CONURUS MITRATUS, Tsch.<habitat>Peru, Bolivia, and Northern Argentina.</habitat>
+      </bird>
+      <bird n="279">CONURUS MOLINÆ, Mass. et Souanc.<habitat>Bolivia, S. Brazil, and N. Argentina.</habitat>
+      </bird>
+      <bird n="280">BOLBORHYNCHUS MONACHUS (Bodd.).<habitat>Paraguay, Uruguay, and Argentina.</habitat>
+      </bird>
+      <bird n="281">BOLBORHYNCHUS AYMARA (d'Orb.).<habitat>Bolivia and N. Argentina.</habitat>
+      </bird>
+      <bird n="282">BOLBORHYNCHUS RUBRIROSTRIS (Burm.).<habitat>Argentina.</habitat>
+      </bird>
+      <bird n="283">CHRYSOTIS VINACEA (Max.).<habitat>S. Brazil, Paraguay, and N. Argentina.</habitat>
+      </bird>
+      <bird n="284">CHRYSOTIS ÆSTIVA (Linn.).<habitat>Brazil, Paraguay, and N. Argentina.</habitat>
+      </bird>
+      <bird n="285">PIONUS MAXIMILIANI (Kuhl).<habitat>Brazil and N. Argentina.</habitat>
+      </bird>
+    </family>
+  </order>
+  <order n="VI">STRIGES<family n="XXX">STRIGIDÆ, or BARN-OWLS.<bird n="286">STRIX FLAMMEA, Linn.<habitat>Old and New Worlds.</habitat>
+      </bird>
+    </family>
+    <family n="XXXI">BUBONIDÆ, or OWLS.<bird n="287">ASIO BRACHYOTUS (Forst.).<habitat>Old and New Worlds.</habitat>
+      </bird>
+      <bird n="288">BUBO VIRGINIANUS (Gm.).<habitat>North and South America.</habitat>
+      </bird>
+      <bird n="289">SCOPS BRASILIANUS (Gm.).<habitat>South America.</habitat>
+      </bird>
+      <bird n="290">SPEOTYTO CUNICULARIA (Mol.).<habitat>North and South America.</habitat>
+      </bird>
+      <bird n="291">GLAUCIDIUM NANUM (King).<habitat>La Plata, Patagonia, and Chili.</habitat>
+      </bird>
+    </family>
+  </order>
+  <order n="VII">ACCIPITRES<family n="XXXII">FALCONIDÆ, or FALCONS.<bird n="292">CIRCUS CINEREUS (Vieill.).<habitat>Southern portion of South America.</habitat>
+      </bird>
+      <bird n="293">CIRCUS MACROPTERUS, Vieill.<habitat>South America.</habitat>
+      </bird>
+      <bird n="294">ASTURINA PUCHERANI, Verr.<habitat>South Brazil, Paraguay, and Argentina.</habitat>
+      </bird>
+      <bird n="295">BUTEO SWAINSONI, Bp.<habitat>North and South America.</habitat>
+      </bird>
+      <bird n="296">BUTEO ALBICAUDATUS (Vieill.).<habitat>Southern and Central America.</habitat>
+      </bird>
+      <bird n="297">BUTEO ERYTHRONOTUS (King).<habitat>Southern portion of South America.</habitat>
+      </bird>
+      <bird n="298">ANTENOR UNICINCTUS (Temm.).<habitat>North and South America.</habitat>
+      </bird>
+      <bird n="299">HETEROSPIZIAS MERIDIONALIS (Lath.).<habitat>South America.</habitat>
+      </bird>
+      <bird n="300">GERANOAËTUS MELANOLEUCUS (Vieill.).<habitat>Whole southern half of South America, and western portion of</habitat>
+      </bird>
+      <bird n="301">HARPYHALIAËTUS CORONATUS (Vieill.).<habitat>South America.</habitat>
+      </bird>
+      <bird n="302">GERANOSPIZIAS CÆRULESCENS (Vieill.).<habitat>South America.</habitat>
+      </bird>
+      <bird n="303">FALCO PEREGRINUS, Linn.<habitat>Old and New Worlds.</habitat>
+      </bird>
+      <bird n="304">FALCO FUSCO-CÆRULESCENS, Vieill.<habitat>Central and South America.</habitat>
+      </bird>
+      <bird n="305">TINNUNCULUS CINNAMOMINUS (Sw.).<habitat>South America.</habitat>
+      </bird>
+      <bird n="306">ELANUS LEUCURUS (Vieill.).<habitat>Central and South America.</habitat>
+      </bird>
+      <bird n="307">ROSTRHAMUS SOCIABILIS (Vieill.).<habitat>South America.</habitat>
+      </bird>
+      <bird n="308">SPIZIAPTERYX CIRCUMCINCTUS (Kaup).<habitat>Argentina.</habitat>
+      </bird>
+      <bird n="309">MILVAGO CHIMANGO (Vieill.).<habitat>Southern half of South America.</habitat>
+      </bird>
+      <bird n="310">POLYBORUS THARUS (Mol.).<habitat>South America.</habitat>
+      </bird>
+    </family>
+    <family n="XXXIII">CATHARTIDÆ, or CONDORS<bird n="311">CATHARTES AURA (Linn.).<habitat>Temperate and Tropical America, and south to Chili and the</habitat>
+      </bird>
+      <bird n="312">CATHARTES ATRATUS (Bartram).<habitat>Eastern U.S., and Central and Southern America to Chili and the</habitat>
+      </bird>
+      <bird n="313">SARCORHAMPHUS GRYPHUS (Linn.).<habitat>Andes of South America, and adjacent ranges in La Plata.</habitat>
+      </bird>
+    </family>
+  </order>
+  <order n="VIII">STEGANOPODES<family n="XXXIV">PHALACROCORACIDÆ, or CORMORANTS.<bird n="314">PHALACROCORAX BRASILIANUS (Gm.).<habitat>Sea-coasts and inland waters of Central and South America.</habitat>
+      </bird>
+    </family>
+  </order>
+  <order n="IX">HERODIONES<family n="XXXV">ARDEIDÆ, or HERONS.<bird n="315">ARDEA COCOI, Linn.<habitat>North and South America.</habitat>
+      </bird>
+      <bird n="316">ARDEA EGRETTA (Gm.).<habitat>North and South America.</habitat>
+      </bird>
+      <bird n="317">ARDEA CANDIDISSIMA, Gm.<habitat>North and South America.</habitat>
+      </bird>
+      <bird n="318">ARDEA CÆRULEA, Linn.<habitat>North and South America.</habitat>
+      </bird>
+      <bird n="319">ARDEA SIBILATRIX, Temm.<habitat>South America.</habitat>
+      </bird>
+      <bird n="320">BUTORIDES CYANURUS (Vieill.).<habitat>South America.</habitat>
+      </bird>
+      <bird n="321">ARDETTA INVOLUCRIS (Vieill.).<habitat>Paraguay and Argentina.</habitat>
+      </bird>
+      <bird n="322">TIGRISOMA MARMORATUM (Vieill.).<habitat>Paraguay and N. Argentina.</habitat>
+      </bird>
+      <bird n="323">NYCTICORAX OBSCURUS, Bp.<habitat>Southern half of South America.</habitat>
+      </bird>
+    </family>
+    <family n="XXXVI">CICONIIDÆ, or STORKS.<bird n="324">MYCTERIA AMERICANA, Linn.<habitat>Texas and Central and South America to La Plata.</habitat>
+      </bird>
+      <bird n="325">EUXENURA MAGUARI (Gm.).<habitat>South America.</habitat>
+      </bird>
+      <bird n="326">TANTALUS LOCULATOR, Linn.<habitat>North and South America.</habitat>
+      </bird>
+    </family>
+    <family n="XXXVII">PLATALEIDÆ, or IBISES.<bird n="327">PLEGADIS GUARAUNA (Linn.).<habitat>Central and South America.</habitat>
+      </bird>
+      <bird n="328">THERISTICUS CAUDATUS (Bodd.).<habitat>Antarctic South America.</habitat>
+      </bird>
+      <bird n="329">HARPIPRION CÆRULESCENS (Vieill.).<habitat>South-east Brazil and Argentina.</habitat>
+      </bird>
+      <bird n="330">PHIMOSUS INFUSCATUS (Licht.).<habitat>South America from Colombia south to Argentina.</habitat>
+      </bird>
+      <bird n="331">AJAJA ROSEA, Reichenb.<habitat>North and South America.</habitat>
+      </bird>
+    </family>
+    <family n="XXXVIII">PHŒNICOPTERIDÆ, or FLAMINGOES.<bird n="332">PHŒNICOPTERUS IGNIPALLIATUS, Geoffr. et d'Orb.<habitat>Southern portions of South America.</habitat>
+      </bird>
+      <bird n="333">PHŒNICOPTERUS ANDINUS, Philippi.<habitat>Andes of Bolivia and Northern Chili.</habitat>
+      </bird>
+    </family>
+  </order>
+  <order n="X">ANSERES<family n="XXXIX">PALAMEDEIDÆ, or SCREAMERS.<bird n="334">CHAUNA CHAVARIA (Linn.).<habitat>Southern Brazil, Paraguay, and La Plata.</habitat>
+      </bird>
+    </family>
+    <family n="XL">ANATIDÆ, or DUCKS.<bird n="335">BERNICLA MELANOPTERA (Eyton).<habitat>Andes of Peru, Bolivia, and Northern Chili.</habitat>
+      </bird>
+      <bird n="336">BERNICLA DISPAR, Ph. et Landb.<habitat>Chili and Argentina.</habitat>
+      </bird>
+      <bird n="337">BERNICLA POLIOCEPHALA, Gray.<habitat>Patagonia, Southern Chili, and Southern Argentina.</habitat>
+      </bird>
+      <bird n="338">CYGNUS NIGRICOLLIS, Gm.<habitat>Argentina, Chili, and Patagonia.</habitat>
+      </bird>
+      <bird n="339">COSCOROBA CANDIDA (Vieill.).<habitat>Patagonia, Chili, Argentina, and Paraguay.</habitat>
+      </bird>
+      <bird n="340">DENDROCYGNA FULVA (Gm.).<habitat>Mexico and South America.</habitat>
+      </bird>
+      <bird n="341">DENDROCYGNA VIDUATA (Linn.).<habitat>South America.</habitat>
+      </bird>
+      <bird n="342">SARCIDIORNIS CARUNCULATA (Licht.).<habitat>Brazil, Paraguay, and northern confines of Argentina.</habitat>
+      </bird>
+      <bird n="343">CAIRINA MOSCHATA (Linn.).<habitat>Central and South America.</habitat>
+      </bird>
+      <bird n="344">HETERONETTA MELANOCEPHALA (Vieill.).<habitat>Southern Brazil, Paraguay, Argentina, and Chili.</habitat>
+      </bird>
+      <bird n="345">QUERQUEDULA CYANOPTERA (Vieill.).<habitat>North and South America.</habitat>
+      </bird>
+      <bird n="346">QUERQUEDULA FLAVIROSTRIS (Vieill.).<habitat>Argentina, Chili, and Patagonia.</habitat>
+      </bird>
+      <bird n="347">QUERQUEDULA VERSICOLOR (Vieill.).<habitat>Paraguay, Argentina, Patagonia, and Chili.</habitat>
+      </bird>
+      <bird n="348">QUERQUEDULA TORQUATA (Vieill.).<habitat>Paraguay and Argentina.</habitat>
+      </bird>
+      <bird n="349">QUERQUEDULA BRASILIENSIS (Gm.).<habitat>South America.</habitat>
+      </bird>
+      <bird n="350">DAFILA SPINICAUDA (Vieill.).<habitat>Southern Brazil, Peru, Paraguay, Argentina, Chili, and Patagonia.</habitat>
+      </bird>
+      <bird n="351">DAFILA BAHAMENSIS (Linn.).<habitat>South America.</habitat>
+      </bird>
+      <bird n="352">MARECA SIBILATRIX (Poepp.).<habitat>Paraguay, Argentina, Chili, and Patagonia.</habitat>
+      </bird>
+      <bird n="353">SPATULA PLATALEA (Vieill.).<habitat>Argentina, Patagonia, and Chili.</habitat>
+      </bird>
+      <bird n="354">METOPIANA PEPOSACA (Vieill.).<habitat>Paraguay, Argentina, Chili, and Patagonia.</habitat>
+      </bird>
+      <bird n="355">ERISMATURA FERRUGINEA, Eyton.<habitat>Central Peru, Chili, and Argentina.</habitat>
+      </bird>
+      <bird n="356">NOMONYX DOMINICUS (Linn.).<habitat>West Indies and South America.</habitat>
+      </bird>
+    </family>
+  </order>
+  <order n="XI">COLUMBÆ<family n="XLI">COLUMBIDÆ, or PIGEONS.<bird n="357">COLUMBA PICAZURO, Temm.<habitat>S.E. Brazil, Paraguay, and Argentina.</habitat>
+      </bird>
+      <bird n="358">COLUMBA MACULOSA, Temm.<habitat>Peru, Bolivia, Western Argentina, and Patagonia.</habitat>
+      </bird>
+      <bird n="359">ZENAIDA MACULATA (Vieill.).<habitat>South America, from the Amazons to Chili and Buenos Ayres.</habitat>
+      </bird>
+      <bird n="360">METRIOPELIA MELANOPTERA (Mol.).<habitat>Andes of South America.</habitat>
+      </bird>
+      <bird n="361">METRIOPELIA AYMARA (Knip et Prév.).<habitat>Peru, Bolivia, and N.W. Argentina.</habitat>
+      </bird>
+      <bird n="362">COLUMBULA PICUI (Temm.).<habitat>Brazil, Paraguay, Argentina, and Chili.</habitat>
+      </bird>
+      <bird n="363">CHAMÆPELIA TALPACOTI (Temm.).<habitat>Brazil, Paraguay, and Northern Argentina.</habitat>
+      </bird>
+      <bird n="364">ENGYPTILA CHALCAUCHENIA (Scl. et Salv.).<habitat>Argentine Republic.</habitat>
+      </bird>
+    </family>
+  </order>
+  <order n="XII">GALLINÆ<family n="XLII">CRACIDÆ, or CURASSOWS.<bird n="365">CRAX SCLATERI, G. R. Gray.<habitat>Paraguay and N. Argentina.</habitat>
+      </bird>
+      <bird n="366">PENELOPE OBSCURA, Temm.<habitat>Paraguay, Northern Argentina, and Bolivia.</habitat>
+      </bird>
+      <bird n="367">PIPILE CUMANENSIS (Jacq.).<habitat>South America from Venezuela to Northern Argentina.</habitat>
+      </bird>
+      <bird n="368">ORTALIS CANICOLLIS, Wagl.<habitat>Paraguay and Northern Argentina.</habitat>
+      </bird>
+    </family>
+  </order>
+  <order n="XIV">GERANOMORPHÆ<family n="XLIII">RALLIDÆ, or RAILS.<bird n="369">RALLUS MACULATUS, Bodd.<habitat>South America.</habitat>
+      </bird>
+      <bird n="370">RALLUS ANTARCTICUS, King.<habitat>Chili, Argentine Republic, and Patagonia.</habitat>
+      </bird>
+      <bird n="371">RALLUS RHYTIRHYNCHUS, Vieill.<habitat>Southern Brazil, Peru, Paraguay, Argentina, Chili, and Patagonia.</habitat>
+      </bird>
+      <bird n="372">RALLUS NIGRICANS, Vieill.<habitat>South Brazil, Paraguay, and Northern Argentina.</habitat>
+      </bird>
+      <bird n="373">ARAMIDES YPECAHA (Vieill.).<habitat>Brazil, Paraguay, and Argentina.</habitat>
+      </bird>
+      <bird n="374">PORZANA LEUCOPYRRHA (Vieill.).<habitat>S. Brazil, Paraguay, and N. Argentina.</habitat>
+      </bird>
+      <bird n="375">PORZANA SALINASI (Philippi).<habitat>Chili and Argentina.</habitat>
+      </bird>
+      <bird n="376">PORZANA NOTATA (Gould).<habitat>Argentina and Patagonia.</habitat>
+      </bird>
+      <bird n="377">PORPHYRIOPS MELANOPS (Vieill.).<habitat>South America.</habitat>
+      </bird>
+      <bird n="378">GALLINULA GALEATA (Licht.).<habitat>North and South America.</habitat>
+      </bird>
+      <bird n="379">FULICA ARMILLATA, Vieill.<habitat>South Brazil, Paraguay, Argentina, Chili, and Patagonia.</habitat>
+      </bird>
+      <bird n="380">FULICA LEUCOPYGA, Hartl.<habitat>Uruguay, Argentina, Chili, and Patagonia.</habitat>
+      </bird>
+      <bird n="381">FULICA LEUCOPTERA, Vieill.<habitat>Paraguay, Uruguay, Argentina, and Bolivia.</habitat>
+      </bird>
+    </family>
+    <family n="XLIV">ARAMIDÆ, or COURLANS.<bird n="382">ARAMUS SCOLOPACEUS (Gm.).<habitat>South America.</habitat>
+      </bird>
+    </family>
+    <family n="XLV">CARIAMIDÆ or CARIAMAS.<bird n="383">CARIAMA CRISTATA (Linn.).<habitat>Campos of S.E. Brazil and Paraguay.</habitat>
+      </bird>
+      <bird n="384">CHUNGA BURMEISTERI (Hartl.).<habitat>Northern Argentina.</habitat>
+      </bird>
+    </family>
+  </order>
+  <order n="XV">LIMICOLÆ<family n="XLVI">PARRIDÆ, or JACANAS.<bird n="385">PARRA JACANA (Linn.).<habitat>South America from Venezuela down to Buenos Ayres.</habitat>
+      </bird>
+    </family>
+    <family n="XLVII">CHARADRIIDÆ, or PLOVERS.<bird n="386">VANELLUS CAYENNENSIS (Gm.).<habitat>Eastern South America.</habitat>
+      </bird>
+      <bird n="387">CHARADRIUS DOMINICUS, Müller.<habitat>America.</habitat>
+      </bird>
+      <bird n="388">EUDROMIAS MODESTA (Licht.).<habitat>Antarctic America.</habitat>
+      </bird>
+      <bird n="389">ÆGIALITIS FALKLANDICA (Lath.).<habitat>Patagonia, Falkland Islands, Chili, and Argentina.</habitat>
+      </bird>
+      <bird n="390">ÆGIALITIS COLLARIS (Vieill.).<habitat>South and Central America.</habitat>
+      </bird>
+      <bird n="391">OREOPHILUS RUFICOLLIS (Wagl.).<habitat>Southern half of South America.</habitat>
+      </bird>
+      <bird n="392">HÆMATOPUS PALLIATUS, Temm.<habitat>America.</habitat>
+      </bird>
+    </family>
+    <family n="XLVIII">THINOCORIDÆ, or SEED-SNIPES.<bird n="393">THINOCORUS RUMICIVORUS, Eschsch.<habitat>Western Peru, Bolivia, Chili, Patagonia, and Argentina.</habitat>
+      </bird>
+      <bird n="394">THINOCORUS ORBIGNYANUS, Geoffr. et Less.<habitat>Western Peru, Bolivia, Chili, and Western Argentina.</habitat>
+      </bird>
+    </family>
+    <family n="XLIX">SCOLOPACIDÆ, or SNIPES.<bird n="395">HIMANTOPUS BRASILIENSIS, Brehm.<habitat>South America.</habitat>
+      </bird>
+      <bird n="396">PHALAROPUS WILSONI, Sabine.<habitat>America, descending southwards during migration to Patagonia.</habitat>
+      </bird>
+      <bird n="397">GALLINAGO PARAGUAIÆ (Vieill.).<habitat>Patagonia, La Plata, and Paraguay.</habitat>
+      </bird>
+      <bird n="398">RHYNCHÆA SEMICOLLARIS (Vieill.).<habitat>Southern parts of South America, from Peru to Patagonia.</habitat>
+      </bird>
+      <bird n="399">TRINGA MACULATA, Vieill.<habitat>Arctic America, migrating south to Patagonia in winter.</habitat>
+      </bird>
+      <bird n="400">TRINGA BAIRDI (Coues).<habitat>Arctic America, migrating south to Patagonia in winter.</habitat>
+      </bird>
+      <bird n="401">TRINGA FUSCICOLLIS, Vieill.<habitat>Arctic America, migrating south to Patagonia in winter.</habitat>
+      </bird>
+      <bird n="402">CALIDRIS ARENARIA (Linn.).<habitat>Arctic regions of both hemispheres, descending far south in</habitat>
+      </bird>
+      <bird n="403">TOTANUS MELANOLEUCUS (Gm.).<habitat>North and South America.</habitat>
+      </bird>
+      <bird n="404">TOTANUS FLAVIPES (Gm.).<habitat>Arctic America, descending south to Chili and Patagonia during</habitat>
+      </bird>
+      <bird n="405">RHYACOPHILUS SOLITARIUS (Wils.).<habitat>Arctic America, descending south to Buenos Ayres during migration.</habitat>
+      </bird>
+      <bird n="406">ACTITURUS BARTRAMIUS (Wils.).<habitat>North America, migrating south to Buenos Ayres.</habitat>
+      </bird>
+      <bird n="407">TRYNGITES RUFESCENS (Vieill.).<habitat>Arctic America, descending south to Buenos Ayres in winter.</habitat>
+      </bird>
+      <bird n="408">LIMOSA HÆMASTICA (Linn.).<habitat>Arctic America, descending south to Central Patagonia in winter.</habitat>
+      </bird>
+      <bird n="409">NUMENIUS BOREALIS (Forst.).<habitat>Arctic America, extending south to Patagonia in winter.</habitat>
+      </bird>
+    </family>
+  </order>
+  <order n="XVI">GAVIÆ<family n="L">LARIDÆ, or GULLS.<bird n="410">RHYNCHOPS MELANURA, Sw.<habitat>Coasts of South America.</habitat>
+      </bird>
+      <bird n="411">PHAËTHUSA MAGNIROSTRIS (Licht.).<habitat>Coasts and rivers of South America.</habitat>
+      </bird>
+      <bird n="412">STERNA MAXIMA, Bodd.<habitat>Coasts of America from Massachusetts to La Plata, and northwards</habitat>
+      </bird>
+      <bird n="413">STERNA TRUDEAUII, Aud.<habitat>Coasts of S.E. Brazil, Argentina, and Chili.</habitat>
+      </bird>
+      <bird n="414">STERNA HIRUNDINACEA, Less.<habitat>Patagonia, Chili, Peru, Argentina, Brazil, and Falkland Islands,</habitat>
+      </bird>
+      <bird n="415">STERNA SUPERCILIARIS, Vieill.<habitat>The large rivers and the coast on the east side of South America.</habitat>
+      </bird>
+      <bird n="416">LARUS DOMINICANUS, Licht.<habitat>Both coasts of South America, from Peru on the west and Rio on</habitat>
+      </bird>
+      <bird n="417">LARUS MACULIPENNIS, Licht.<habitat>Southern Brazil, Uruguay, and La Plata.</habitat>
+      </bird>
+      <bird n="418">LARUS CIRRHOCEPHALUS, Vieill.<habitat>South Brazil, Uruguay, and La Plata, also coast of Peru.</habitat>
+      </bird>
+    </family>
+  </order>
+  <order n="XVII">PYGOPODES<family n="LI">PODICIPEDIDÆ, or GREBES.<bird n="419">ÆCHMOPHORUS MAJOR (Bodd.).<habitat>South America.</habitat>
+      </bird>
+      <bird n="420">PODICEPS CALIPARÆUS, Less.<habitat>Antarctic America, north to Cordova.</habitat>
+      </bird>
+      <bird n="421">PODICEPS ROLLANDI, Quoy et Gaim.<habitat>Antarctic America, north to Cordova.</habitat>
+      </bird>
+      <bird n="422">TACHYBAPTES DOMINICUS (Linn.).<habitat>Central and South America.</habitat>
+      </bird>
+      <bird n="423">PODILYMBUS PODICEPS (Linn.).<habitat>North and South America.</habitat>
+      </bird>
+    </family>
+  </order>
+  <order n="XVIII">IMPENNES<family n="LII">APTENODYTIDÆ, or PENGUINS.<bird n="424">SPHENISCUS MAGELLANICUS (Forst.).<habitat>Coasts of Antarctic America and Falkland Islands.</habitat>
+      </bird>
+    </family>
+  </order>
+  <order n="XIX">CRYPTURI<family n="LIII">TINAMIDÆ, or TINAMOUS.<bird n="425">CRYPTURUS OBSOLETUS, Temm.<habitat>Southern Brazil, Paraguay, and Northern Argentina.</habitat>
+      </bird>
+      <bird n="426">CRYPTURUS TATAUPA (Temm.).<habitat>South Brazil, Paraguay, and Northern Argentina.</habitat>
+      </bird>
+      <bird n="427">RHYNCHOTUS RUFESCENS (Temm.).<habitat>South Brazil, Paraguay, and Argentina.</habitat>
+      </bird>
+      <bird n="428">NOTHOPROCTA PENTLANDI (Gray).<habitat>Andes of Bolivia and Northern Argentina.</habitat>
+      </bird>
+      <bird n="429">NOTHOPROCTA CINERASCENS (Burm.).<habitat>Northern Argentina.</habitat>
+      </bird>
+      <bird n="430">NOTHURA MACULOSA (Temm.)<habitat>Argentine Republic.</habitat>
+      </bird>
+      <bird n="431">NOTHURA DARWINI, Gray.<habitat>Northern Patagonia.</habitat>
+      </bird>
+      <bird n="432">CALODROMAS ELEGANS (d'Orb. et Geoff.).<habitat>Northern Patagonia and Western Argentina.</habitat>
+      </bird>
+    </family>
+  </order>
+  <order n="XX">STRUTHIONES<family n="LIV">RHEIDÆ, or RHEAS.<bird n="433">RHEA AMERICANA, Lath.<habitat>Pampas of S. America north of Rio Negro.</habitat>
+      </bird>
+      <bird n="434">RHEA DARWINI, Gould.<habitat>Patagonia south of the Rio Negro.</habitat>
+      </bird>
+    </family>
+  </order>
 </document>
