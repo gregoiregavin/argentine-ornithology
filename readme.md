@@ -45,7 +45,8 @@ Each Bird has a scientific name (in latin), a common name, the name of the scien
 As the table of content of the original document is humanly readable and accessible, we can predict the regex should return :
 - 18 Orders
 - 35 Families
-- 202 Birds
+- 204 Birds
+- 204 Habitats
 
 ### 2.3 Test regex
 From here, we're able to create and text the regular expressions to find our data. Here's an example as how we tested the regex to extract the Orders. We used ```re.findall()``` and ```print(len())``` functions to check if the results were similar as expected.
