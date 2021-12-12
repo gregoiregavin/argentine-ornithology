@@ -46,7 +46,7 @@ As the table of content of the original document is humanly readable and accessi
 - 18 Orders
 - 35 Families
 - 204 Birds
-- 204 Habitats
+
 
 ### 2.3 Test regex
 From here, we're able to create and text the regular expressions to find our data. Here's an example as how we tested the regex to extract the Orders. We used ```re.findall()``` and ```print(len())``` functions to check if the results were similar as expected.
@@ -54,8 +54,8 @@ From here, we're able to create and text the regular expressions to find our dat
 The following regex were found :
  - Get Orders : ```Order\s[IVXL]*\.\s[A-Z \Æ]*\.```
  - Get Families : ```Fam\.\s[IVXL]*\.\s[A-Z \Æ]*```
- - Get Birds and Scientific Name : ```(r'(?m)^([0-9]{3}\. .*)$'``` 
- - Get Habitat : ```(r'(?m)^(_Hab\._ .*)$'```
+ - Get Birds : ```[0-9]{3}\.\s[A-Z \Æ]{7,}``` 
+
 
 
 ## 3. XML generation
