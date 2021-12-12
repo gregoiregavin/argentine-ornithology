@@ -38,7 +38,6 @@ ET.indent(tree)
 # Write the XML tree to a file
 tree.write('output.xml', encoding = 'utf-8')
 
-#aurevoir rebonjour
 
 
 # TEST 1
