@@ -13,19 +13,19 @@ for line in fileinput.input(files='files/1_birds.txt',encoding='utf-8'):
     m = re.match('Order\s[IVXL]*\.\s[A-Z \Æ]*\.', line)
     if m:
         print(line)
-        order = ET.SubElement(root, 'order', attrib = {'n': m.group(1)})
+        order = ET.SubElement(root, 'order', attrib = {'n': m.group()})
 
     m = re.match('Fam\.\s[IVXL]*\.\s[A-Z \Æ]*', line)
     if m:
         print(line)
-        family = ET.SubElement(order, 'family', attrib = {'n': m.group(1)})
-        family.text = m.group(2) 
+        family = ET.SubElement(order, 'family', attrib = {'n': m.group()})
+        family.text = m.group()
         
     m = re.match(r'(?m)^([0-9]{3}\. .*)$', line)
     if m:
         print(line)
-        nom = ET.SubElement(family, 'nom', attrib = {'n': m.group(1)})
-        nom.text = m.group(2)
+        nom = ET.SubElement(family, 'nom', attrib = {'n': m.group()})
+        nom.text = m.group()
         
    # m = re.match(r'(?m)^(_Hab\._ .*)$', line)
    # if m:

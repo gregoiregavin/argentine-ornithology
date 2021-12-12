@@ -1,313 +1,278 @@
 <document>
-  <order>
-    <family>
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
+  <order n="Order II. MACROCHIRES.">
+    <family n="Fam. XX. TROCHILIDÆ">Fam. XX. TROCHILIDÆ<nom n="230. OREOTROCHILUS LEUCOPLEURUS, Gould.">230. OREOTROCHILUS LEUCOPLEURUS, Gould.</nom>
+      <nom n="231. CHÆTOCERCUS BURMEISTERI, Scl.">231. CHÆTOCERCUS BURMEISTERI, Scl.</nom>
+      <nom n="232. SPARGANURA SAPPHO (Lesson).">232. SPARGANURA SAPPHO (Lesson).</nom>
+      <nom n="233. PETASOPHORA SERRIROSTRIS (Vieill.).">233. PETASOPHORA SERRIROSTRIS (Vieill.).</nom>
+      <nom n="234. PATAGONA GIGAS (Vieill.).">234. PATAGONA GIGAS (Vieill.).</nom>
+      <nom n="235. CALLIPERIDIA FURCIFERA (Shaw).">235. CALLIPERIDIA FURCIFERA (Shaw).</nom>
+      <nom n="236. LEUCIPPUS CHIONOGASTER (Tsch.).">236. LEUCIPPUS CHIONOGASTER (Tsch.).</nom>
+      <nom n="237. LEUCOCHLORIS ALBICOLLIS (Vieill.).">237. LEUCOCHLORIS ALBICOLLIS (Vieill.).</nom>
+      <nom n="238. CHRYSURONIA RUFICOLLIS (Vieill.).">238. CHRYSURONIA RUFICOLLIS (Vieill.).</nom>
+      <nom n="239. HYLOCHARIS SAPPHIRINA (Gm.).">239. HYLOCHARIS SAPPHIRINA (Gm.).</nom>
+      <nom n="240. CHLOROSTILBON SPLENDIDUS (Vieill.).">240. CHLOROSTILBON SPLENDIDUS (Vieill.).</nom>
     </family>
-    <family>
-      <nom />
+    <family n="Fam. XXI. CYPSELIDÆ">Fam. XXI. CYPSELIDÆ<nom n="241. HEMIPROCNE ZONARIS (Shaw).">241. HEMIPROCNE ZONARIS (Shaw).</nom>
     </family>
-    <family>
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
+    <family n="Fam. XXII. CAPRIMULGIDÆ">Fam. XXII. CAPRIMULGIDÆ<nom n="242. PODAGER NACUNDA (Vieill.).">242. PODAGER NACUNDA (Vieill.).</nom>
+      <nom n="243. CHORDEILES VIRGINIANUS (Gm.).">243. CHORDEILES VIRGINIANUS (Gm.).</nom>
+      <nom n="244. ANTROSTOMUS PARVULUS (Gould).">244. ANTROSTOMUS PARVULUS (Gould).</nom>
+      <nom n="245. STENOPSIS BIFASCIATA (Gould).">245. STENOPSIS BIFASCIATA (Gould).</nom>
+      <nom n="246. HYDROPSALIS FURCIFERA (Vieill.).">246. HYDROPSALIS FURCIFERA (Vieill.).</nom>
+      <nom n="247. HELEOTHREPTUS ANOMALUS (GOULD).">247. HELEOTHREPTUS ANOMALUS (GOULD).</nom>
     </family>
   </order>
-  <order>
-    <family>
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
+  <order n="Order III. PICI.">
+    <family n="Fam. XXIII. PICIDÆ">Fam. XXIII. PICIDÆ<nom n="248. CAMPEPHILUS BOIÆI (Wagl.).">248. CAMPEPHILUS BOIÆI (Wagl.).</nom>
+      <nom n="249. CAMPEPHILUS SCHULZI (Cab.).">249. CAMPEPHILUS SCHULZI (Cab.).</nom>
+      <nom n="250. DRYOCOPUS ERYTHROPS (Val.).">250. DRYOCOPUS ERYTHROPS (Val.).</nom>
+      <nom n="251. PICUS MIXTUS, Bodd.">251. PICUS MIXTUS, Bodd.</nom>
+      <nom n="252. PICUS CACTORUM, d'Orb. et Lafr.">252. PICUS CACTORUM, d'Orb. et Lafr.</nom>
+      <nom n="253. CHLORONERPES AFFINIS (Wagl.).">253. CHLORONERPES AFFINIS (Wagl.).</nom>
+      <nom n="254. CHLORONERPES FRONTALIS, Cab.">254. CHLORONERPES FRONTALIS, Cab.</nom>
+      <nom n="255. CHLORONERPES AURULENTUS (Licht.).">255. CHLORONERPES AURULENTUS (Licht.).</nom>
+      <nom n="256. CHLORONERPES TUCUMANUS, Cab.">256. CHLORONERPES TUCUMANUS, Cab.</nom>
+      <nom n="257. CHRYSOPTILUS CRISTATUS (Vieill.).">257. CHRYSOPTILUS CRISTATUS (Vieill.).</nom>
+      <nom n="258. LEUCONERPES CANDIDUS (Otto).">258. LEUCONERPES CANDIDUS (Otto).</nom>
+      <nom n="259. COLAPTES LONGIROSTRIS, Cab.">259. COLAPTES LONGIROSTRIS, Cab.</nom>
+      <nom n="260. COLAPTES AGRICOLA (Malh.).">260. COLAPTES AGRICOLA (Malh.).</nom>
     </family>
   </order>
-  <order>
-    <family>
-      <nom />
-      <nom />
-      <nom />
+  <order n="Order IV. COCCYGES.">
+    <family n="Fam. XXIV. ALCEDINIDÆ">Fam. XXIV. ALCEDINIDÆ<nom n="261. CERYLE TORQUATA (Linn.).">261. CERYLE TORQUATA (Linn.).</nom>
+      <nom n="262. CERYLE AMAZONA (Lath.).">262. CERYLE AMAZONA (Lath.).</nom>
+      <nom n="263. CERYLE AMERICANA (Gm.).">263. CERYLE AMERICANA (Gm.).</nom>
     </family>
-    <family>
-      <nom />
-      <nom />
+    <family n="Fam. XXV. TROGONIDÆ">Fam. XXV. TROGONIDÆ<nom n="264. TROGON VARIEGATUS, Spix.">264. TROGON VARIEGATUS, Spix.</nom>
+      <nom n="265. TROGON SURUCURA, Vieill.">265. TROGON SURUCURA, Vieill.</nom>
     </family>
-    <family>
-      <nom />
+    <family n="Fam. XXVI. BUCCONIDÆ">Fam. XXVI. BUCCONIDÆ<nom n="266. BUCCO MACULATUS (Gm.).">266. BUCCO MACULATUS (Gm.).</nom>
     </family>
-    <family>
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
+    <family n="Fam. XXVII. CUCULIDÆ">Fam. XXVII. CUCULIDÆ<nom n="267. CROTOPHAGA ANI, Linn.">267. CROTOPHAGA ANI, Linn.</nom>
+      <nom n="268. GUIRA PIRIRIGUA (Vieill.).">268. GUIRA PIRIRIGUA (Vieill.).</nom>
+      <nom n="269. DIPLOPTERUS NÆVIUS (Gm.).">269. DIPLOPTERUS NÆVIUS (Gm.).</nom>
+      <nom n="270. PIAYA CAYANA (Linn.).">270. PIAYA CAYANA (Linn.).</nom>
+      <nom n="271. COCCYZUS AMERICANUS (Linn.).">271. COCCYZUS AMERICANUS (Linn.).</nom>
+      <nom n="272. COCCYZUS MELANOCORYPHUS, Vieill.">272. COCCYZUS MELANOCORYPHUS, Vieill.</nom>
+      <nom n="273. COCCYZUS CINEREUS, Vieill.">273. COCCYZUS CINEREUS, Vieill.</nom>
+      <nom n="274. COCCYZUS PUMILUS, Strickl.">274. COCCYZUS PUMILUS, Strickl.</nom>
     </family>
-    <family>
-      <nom />
+    <family n="Fam. XXVIII. RHAMPHASTIDÆ">Fam. XXVIII. RHAMPHASTIDÆ<nom n="275. RHAMPHASTOS TOCO, Gm.">275. RHAMPHASTOS TOCO, Gm.</nom>
     </family>
   </order>
-  <order>
-    <family>
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
+  <order n="Order V. PSITTACI.">
+    <family n="Fam. XXIX. PSITTACIDÆ">Fam. XXIX. PSITTACIDÆ<nom n="276. CONURUS PATAGONUS (Vieill).">276. CONURUS PATAGONUS (Vieill).</nom>
+      <nom n="277. CONURUS ACUTICAUDATUS (Vieill.).">277. CONURUS ACUTICAUDATUS (Vieill.).</nom>
+      <nom n="278. CONURUS MITRATUS, Tsch.">278. CONURUS MITRATUS, Tsch.</nom>
+      <nom n="279. CONURUS MOLINÆ, Mass. et Souanc.">279. CONURUS MOLINÆ, Mass. et Souanc.</nom>
+      <nom n="280. BOLBORHYNCHUS MONACHUS (Bodd.).">280. BOLBORHYNCHUS MONACHUS (Bodd.).</nom>
+      <nom n="281. BOLBORHYNCHUS AYMARA (d'Orb.).">281. BOLBORHYNCHUS AYMARA (d'Orb.).</nom>
+      <nom n="282. BOLBORHYNCHUS RUBRIROSTRIS (Burm.).">282. BOLBORHYNCHUS RUBRIROSTRIS (Burm.).</nom>
+      <nom n="283. CHRYSOTIS VINACEA (Max.).">283. CHRYSOTIS VINACEA (Max.).</nom>
+      <nom n="284. CHRYSOTIS ÆSTIVA (Linn.).">284. CHRYSOTIS ÆSTIVA (Linn.).</nom>
+      <nom n="285. PIONUS MAXIMILIANI (Kuhl).">285. PIONUS MAXIMILIANI (Kuhl).</nom>
     </family>
   </order>
-  <order>
-    <family>
-      <nom />
+  <order n="Order VI. STRIGES.">
+    <family n="Fam. XXX. STRIGIDÆ">Fam. XXX. STRIGIDÆ<nom n="286. STRIX FLAMMEA, Linn.">286. STRIX FLAMMEA, Linn.</nom>
     </family>
-    <family>
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
+    <family n="Fam. XXXI. BUBONIDÆ">Fam. XXXI. BUBONIDÆ<nom n="287. ASIO BRACHYOTUS (Forst.).">287. ASIO BRACHYOTUS (Forst.).</nom>
+      <nom n="288. BUBO VIRGINIANUS (Gm.).">288. BUBO VIRGINIANUS (Gm.).</nom>
+      <nom n="289. SCOPS BRASILIANUS (Gm.).">289. SCOPS BRASILIANUS (Gm.).</nom>
+      <nom n="290. SPEOTYTO CUNICULARIA (Mol.).">290. SPEOTYTO CUNICULARIA (Mol.).</nom>
+      <nom n="291. GLAUCIDIUM NANUM (King).">291. GLAUCIDIUM NANUM (King).</nom>
     </family>
   </order>
-  <order>
-    <family>
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
+  <order n="Order VII. ACCIPITRES.">
+    <family n="Fam. XXXII. FALCONIDÆ">Fam. XXXII. FALCONIDÆ<nom n="292. CIRCUS CINEREUS (Vieill.).">292. CIRCUS CINEREUS (Vieill.).</nom>
+      <nom n="293. CIRCUS MACROPTERUS, Vieill.">293. CIRCUS MACROPTERUS, Vieill.</nom>
+      <nom n="294. ASTURINA PUCHERANI, Verr.">294. ASTURINA PUCHERANI, Verr.</nom>
+      <nom n="295. BUTEO SWAINSONI, Bp.">295. BUTEO SWAINSONI, Bp.</nom>
+      <nom n="296. BUTEO ALBICAUDATUS (Vieill.).">296. BUTEO ALBICAUDATUS (Vieill.).</nom>
+      <nom n="297. BUTEO ERYTHRONOTUS (King).">297. BUTEO ERYTHRONOTUS (King).</nom>
+      <nom n="298. ANTENOR UNICINCTUS (Temm.).">298. ANTENOR UNICINCTUS (Temm.).</nom>
+      <nom n="299. HETEROSPIZIAS MERIDIONALIS (Lath.).">299. HETEROSPIZIAS MERIDIONALIS (Lath.).</nom>
+      <nom n="300. GERANOAËTUS MELANOLEUCUS (Vieill.).">300. GERANOAËTUS MELANOLEUCUS (Vieill.).</nom>
+      <nom n="301. HARPYHALIAËTUS CORONATUS (Vieill.).">301. HARPYHALIAËTUS CORONATUS (Vieill.).</nom>
+      <nom n="302. GERANOSPIZIAS CÆRULESCENS (Vieill.).">302. GERANOSPIZIAS CÆRULESCENS (Vieill.).</nom>
+      <nom n="303. FALCO PEREGRINUS, Linn.">303. FALCO PEREGRINUS, Linn.</nom>
+      <nom n="304. FALCO FUSCO-CÆRULESCENS, Vieill.">304. FALCO FUSCO-CÆRULESCENS, Vieill.</nom>
+      <nom n="305. TINNUNCULUS CINNAMOMINUS (Sw.).">305. TINNUNCULUS CINNAMOMINUS (Sw.).</nom>
+      <nom n="306. ELANUS LEUCURUS (Vieill.).">306. ELANUS LEUCURUS (Vieill.).</nom>
+      <nom n="307. ROSTRHAMUS SOCIABILIS (Vieill.).">307. ROSTRHAMUS SOCIABILIS (Vieill.).</nom>
+      <nom n="308. SPIZIAPTERYX CIRCUMCINCTUS (Kaup).">308. SPIZIAPTERYX CIRCUMCINCTUS (Kaup).</nom>
+      <nom n="309. MILVAGO CHIMANGO (Vieill.).">309. MILVAGO CHIMANGO (Vieill.).</nom>
+      <nom n="310. POLYBORUS THARUS (Mol.).">310. POLYBORUS THARUS (Mol.).</nom>
     </family>
-    <family>
-      <nom />
-      <nom />
-      <nom />
+    <family n="Fam. XXXIII. CATHARTIDÆ">Fam. XXXIII. CATHARTIDÆ<nom n="311. CATHARTES AURA (Linn.).">311. CATHARTES AURA (Linn.).</nom>
+      <nom n="312. CATHARTES ATRATUS (Bartram).">312. CATHARTES ATRATUS (Bartram).</nom>
+      <nom n="313. SARCORHAMPHUS GRYPHUS (Linn.).">313. SARCORHAMPHUS GRYPHUS (Linn.).</nom>
     </family>
   </order>
-  <order>
-    <family>
-      <nom />
+  <order n="Order VIII. STEGANOPODES.">
+    <family n="Fam. XXXIV. PHALACROCORACIDÆ">Fam. XXXIV. PHALACROCORACIDÆ<nom n="314. PHALACROCORAX BRASILIANUS (Gm.).">314. PHALACROCORAX BRASILIANUS (Gm.).</nom>
     </family>
   </order>
-  <order>
-    <family>
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
+  <order n="Order IX. HERODIONES.">
+    <family n="Fam. XXXV. ARDEIDÆ">Fam. XXXV. ARDEIDÆ<nom n="315. ARDEA COCOI, Linn.">315. ARDEA COCOI, Linn.</nom>
+      <nom n="316. ARDEA EGRETTA (Gm.).">316. ARDEA EGRETTA (Gm.).</nom>
+      <nom n="317. ARDEA CANDIDISSIMA, Gm.">317. ARDEA CANDIDISSIMA, Gm.</nom>
+      <nom n="318. ARDEA CÆRULEA, Linn.">318. ARDEA CÆRULEA, Linn.</nom>
+      <nom n="319. ARDEA SIBILATRIX, Temm.">319. ARDEA SIBILATRIX, Temm.</nom>
+      <nom n="320. BUTORIDES CYANURUS (Vieill.).">320. BUTORIDES CYANURUS (Vieill.).</nom>
+      <nom n="321. ARDETTA INVOLUCRIS (Vieill.).">321. ARDETTA INVOLUCRIS (Vieill.).</nom>
+      <nom n="322. TIGRISOMA MARMORATUM (Vieill.).">322. TIGRISOMA MARMORATUM (Vieill.).</nom>
+      <nom n="323. NYCTICORAX OBSCURUS, Bp.">323. NYCTICORAX OBSCURUS, Bp.</nom>
     </family>
-    <family>
-      <nom />
-      <nom />
-      <nom />
+    <family n="Fam. XXXVI. CICONIIDÆ">Fam. XXXVI. CICONIIDÆ<nom n="324. MYCTERIA AMERICANA, Linn.">324. MYCTERIA AMERICANA, Linn.</nom>
+      <nom n="325. EUXENURA MAGUARI (Gm.).">325. EUXENURA MAGUARI (Gm.).</nom>
+      <nom n="326. TANTALUS LOCULATOR, Linn.">326. TANTALUS LOCULATOR, Linn.</nom>
     </family>
-    <family>
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
+    <family n="Fam. XXXVII. PLATALEIDÆ">Fam. XXXVII. PLATALEIDÆ<nom n="327. PLEGADIS GUARAUNA (Linn.).">327. PLEGADIS GUARAUNA (Linn.).</nom>
+      <nom n="328. THERISTICUS CAUDATUS (Bodd.).">328. THERISTICUS CAUDATUS (Bodd.).</nom>
+      <nom n="329. HARPIPRION CÆRULESCENS (Vieill.).">329. HARPIPRION CÆRULESCENS (Vieill.).</nom>
+      <nom n="330. PHIMOSUS INFUSCATUS (Licht.).">330. PHIMOSUS INFUSCATUS (Licht.).</nom>
+      <nom n="331. AJAJA ROSEA, Reichenb.">331. AJAJA ROSEA, Reichenb.</nom>
     </family>
-    <family>
-      <nom />
-      <nom />
+    <family n="Fam. XXXVIII. PH">Fam. XXXVIII. PH<nom n="332. PHŒNICOPTERUS IGNIPALLIATUS, Geoffr. et d'Orb.">332. PHŒNICOPTERUS IGNIPALLIATUS, Geoffr. et d'Orb.</nom>
+      <nom n="333. PHŒNICOPTERUS ANDINUS, Philippi.">333. PHŒNICOPTERUS ANDINUS, Philippi.</nom>
     </family>
   </order>
-  <order>
-    <family>
-      <nom />
+  <order n="Order X. ANSERES.">
+    <family n="Fam. XXXIX. PALAMEDEIDÆ">Fam. XXXIX. PALAMEDEIDÆ<nom n="334. CHAUNA CHAVARIA (Linn.).">334. CHAUNA CHAVARIA (Linn.).</nom>
     </family>
-    <family>
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
+    <family n="Fam. XL. ANATIDÆ">Fam. XL. ANATIDÆ<nom n="335. BERNICLA MELANOPTERA (Eyton).">335. BERNICLA MELANOPTERA (Eyton).</nom>
+      <nom n="336. BERNICLA DISPAR, Ph. et Landb.">336. BERNICLA DISPAR, Ph. et Landb.</nom>
+      <nom n="337. BERNICLA POLIOCEPHALA, Gray.">337. BERNICLA POLIOCEPHALA, Gray.</nom>
+      <nom n="338. CYGNUS NIGRICOLLIS, Gm.">338. CYGNUS NIGRICOLLIS, Gm.</nom>
+      <nom n="339. COSCOROBA CANDIDA (Vieill.).">339. COSCOROBA CANDIDA (Vieill.).</nom>
+      <nom n="340. DENDROCYGNA FULVA (Gm.).">340. DENDROCYGNA FULVA (Gm.).</nom>
+      <nom n="341. DENDROCYGNA VIDUATA (Linn.).">341. DENDROCYGNA VIDUATA (Linn.).</nom>
+      <nom n="342. SARCIDIORNIS CARUNCULATA (Licht.).">342. SARCIDIORNIS CARUNCULATA (Licht.).</nom>
+      <nom n="343. CAIRINA MOSCHATA (Linn.).">343. CAIRINA MOSCHATA (Linn.).</nom>
+      <nom n="344. HETERONETTA MELANOCEPHALA (Vieill.).">344. HETERONETTA MELANOCEPHALA (Vieill.).</nom>
+      <nom n="345. QUERQUEDULA CYANOPTERA (Vieill.).">345. QUERQUEDULA CYANOPTERA (Vieill.).</nom>
+      <nom n="346. QUERQUEDULA FLAVIROSTRIS (Vieill.).">346. QUERQUEDULA FLAVIROSTRIS (Vieill.).</nom>
+      <nom n="347. QUERQUEDULA VERSICOLOR (Vieill.).">347. QUERQUEDULA VERSICOLOR (Vieill.).</nom>
+      <nom n="348. QUERQUEDULA TORQUATA (Vieill.).">348. QUERQUEDULA TORQUATA (Vieill.).</nom>
+      <nom n="349. QUERQUEDULA BRASILIENSIS (Gm.).">349. QUERQUEDULA BRASILIENSIS (Gm.).</nom>
+      <nom n="350. DAFILA SPINICAUDA (Vieill.).">350. DAFILA SPINICAUDA (Vieill.).</nom>
+      <nom n="351. DAFILA BAHAMENSIS (Linn.).">351. DAFILA BAHAMENSIS (Linn.).</nom>
+      <nom n="352. MARECA SIBILATRIX (Poepp.).">352. MARECA SIBILATRIX (Poepp.).</nom>
+      <nom n="353. SPATULA PLATALEA (Vieill.).">353. SPATULA PLATALEA (Vieill.).</nom>
+      <nom n="354. METOPIANA PEPOSACA (Vieill.).">354. METOPIANA PEPOSACA (Vieill.).</nom>
+      <nom n="355. ERISMATURA FERRUGINEA, Eyton.">355. ERISMATURA FERRUGINEA, Eyton.</nom>
+      <nom n="356. NOMONYX DOMINICUS (Linn.).">356. NOMONYX DOMINICUS (Linn.).</nom>
     </family>
   </order>
-  <order>
-    <family>
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
+  <order n="Order XI. COLUMBÆ.">
+    <family n="Fam. XLI. COLUMBIDÆ">Fam. XLI. COLUMBIDÆ<nom n="357. COLUMBA PICAZURO, Temm.">357. COLUMBA PICAZURO, Temm.</nom>
+      <nom n="358. COLUMBA MACULOSA, Temm.">358. COLUMBA MACULOSA, Temm.</nom>
+      <nom n="359. ZENAIDA MACULATA (Vieill.).">359. ZENAIDA MACULATA (Vieill.).</nom>
+      <nom n="360. METRIOPELIA MELANOPTERA (Mol.).">360. METRIOPELIA MELANOPTERA (Mol.).</nom>
+      <nom n="361. METRIOPELIA AYMARA (Knip et Prév.).">361. METRIOPELIA AYMARA (Knip et Prév.).</nom>
+      <nom n="362. COLUMBULA PICUI (Temm.).">362. COLUMBULA PICUI (Temm.).</nom>
+      <nom n="363. CHAMÆPELIA TALPACOTI (Temm.).">363. CHAMÆPELIA TALPACOTI (Temm.).</nom>
+      <nom n="364. ENGYPTILA CHALCAUCHENIA (Scl. et Salv.).">364. ENGYPTILA CHALCAUCHENIA (Scl. et Salv.).</nom>
     </family>
   </order>
-  <order>
-    <family>
-      <nom />
-      <nom />
-      <nom />
-      <nom />
+  <order n="Order XII. GALLINÆ.">
+    <family n="Fam. XLII. CRACIDÆ">Fam. XLII. CRACIDÆ<nom n="365. CRAX SCLATERI, G. R. Gray.">365. CRAX SCLATERI, G. R. Gray.</nom>
+      <nom n="366. PENELOPE OBSCURA, Temm.">366. PENELOPE OBSCURA, Temm.</nom>
+      <nom n="367. PIPILE CUMANENSIS (Jacq.).">367. PIPILE CUMANENSIS (Jacq.).</nom>
+      <nom n="368. ORTALIS CANICOLLIS, Wagl.">368. ORTALIS CANICOLLIS, Wagl.</nom>
     </family>
   </order>
-  <order>
-    <family>
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
+  <order n="Order XIV. GERANOMORPHÆ.">
+    <family n="Fam. XLIII. RALLIDÆ">Fam. XLIII. RALLIDÆ<nom n="369. RALLUS MACULATUS, Bodd.">369. RALLUS MACULATUS, Bodd.</nom>
+      <nom n="370. RALLUS ANTARCTICUS, King.">370. RALLUS ANTARCTICUS, King.</nom>
+      <nom n="371. RALLUS RHYTIRHYNCHUS, Vieill.">371. RALLUS RHYTIRHYNCHUS, Vieill.</nom>
+      <nom n="372. RALLUS NIGRICANS, Vieill.">372. RALLUS NIGRICANS, Vieill.</nom>
+      <nom n="373. ARAMIDES YPECAHA (Vieill.).">373. ARAMIDES YPECAHA (Vieill.).</nom>
+      <nom n="374. PORZANA LEUCOPYRRHA (Vieill.).">374. PORZANA LEUCOPYRRHA (Vieill.).</nom>
+      <nom n="375. PORZANA SALINASI (Philippi).">375. PORZANA SALINASI (Philippi).</nom>
+      <nom n="376. PORZANA NOTATA (Gould).">376. PORZANA NOTATA (Gould).</nom>
+      <nom n="377. PORPHYRIOPS MELANOPS (Vieill.).">377. PORPHYRIOPS MELANOPS (Vieill.).</nom>
+      <nom n="378. GALLINULA GALEATA (Licht.).">378. GALLINULA GALEATA (Licht.).</nom>
+      <nom n="379. FULICA ARMILLATA, Vieill.">379. FULICA ARMILLATA, Vieill.</nom>
+      <nom n="380. FULICA LEUCOPYGA, Hartl.">380. FULICA LEUCOPYGA, Hartl.</nom>
+      <nom n="381. FULICA LEUCOPTERA, Vieill.">381. FULICA LEUCOPTERA, Vieill.</nom>
     </family>
-    <family>
-      <nom />
+    <family n="Fam. XLIV. ARAMIDÆ">Fam. XLIV. ARAMIDÆ<nom n="382. ARAMUS SCOLOPACEUS (Gm.).">382. ARAMUS SCOLOPACEUS (Gm.).</nom>
     </family>
-    <family>
-      <nom />
-      <nom />
+    <family n="Fam. XLV. CARIAMIDÆ ">Fam. XLV. CARIAMIDÆ <nom n="383. CARIAMA CRISTATA (Linn.).">383. CARIAMA CRISTATA (Linn.).</nom>
+      <nom n="384. CHUNGA BURMEISTERI (Hartl.).">384. CHUNGA BURMEISTERI (Hartl.).</nom>
     </family>
   </order>
-  <order>
-    <family>
-      <nom />
+  <order n="Order XV. LIMICOLÆ.">
+    <family n="Fam. XLVI. PARRIDÆ">Fam. XLVI. PARRIDÆ<nom n="385. PARRA JACANA (Linn.).">385. PARRA JACANA (Linn.).</nom>
     </family>
-    <family>
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
+    <family n="Fam. XLVII. CHARADRIIDÆ">Fam. XLVII. CHARADRIIDÆ<nom n="386. VANELLUS CAYENNENSIS (Gm.).">386. VANELLUS CAYENNENSIS (Gm.).</nom>
+      <nom n="387. CHARADRIUS DOMINICUS, Müller.">387. CHARADRIUS DOMINICUS, Müller.</nom>
+      <nom n="388. EUDROMIAS MODESTA (Licht.).">388. EUDROMIAS MODESTA (Licht.).</nom>
+      <nom n="389. ÆGIALITIS FALKLANDICA (Lath.).">389. ÆGIALITIS FALKLANDICA (Lath.).</nom>
+      <nom n="390. ÆGIALITIS COLLARIS (Vieill.).">390. ÆGIALITIS COLLARIS (Vieill.).</nom>
+      <nom n="391. OREOPHILUS RUFICOLLIS (Wagl.).">391. OREOPHILUS RUFICOLLIS (Wagl.).</nom>
+      <nom n="392. HÆMATOPUS PALLIATUS, Temm.">392. HÆMATOPUS PALLIATUS, Temm.</nom>
     </family>
-    <family>
-      <nom />
-      <nom />
+    <family n="Fam. XLVIII. THINOCORIDÆ">Fam. XLVIII. THINOCORIDÆ<nom n="393. THINOCORUS RUMICIVORUS, Eschsch.">393. THINOCORUS RUMICIVORUS, Eschsch.</nom>
+      <nom n="394. THINOCORUS ORBIGNYANUS, Geoffr. et Less.">394. THINOCORUS ORBIGNYANUS, Geoffr. et Less.</nom>
     </family>
-    <family>
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
+    <family n="Fam. XLIX. SCOLOPACIDÆ">Fam. XLIX. SCOLOPACIDÆ<nom n="395. HIMANTOPUS BRASILIENSIS, Brehm.">395. HIMANTOPUS BRASILIENSIS, Brehm.</nom>
+      <nom n="396. PHALAROPUS WILSONI, Sabine.">396. PHALAROPUS WILSONI, Sabine.</nom>
+      <nom n="397. GALLINAGO PARAGUAIÆ (Vieill.).">397. GALLINAGO PARAGUAIÆ (Vieill.).</nom>
+      <nom n="398. RHYNCHÆA SEMICOLLARIS (Vieill.).">398. RHYNCHÆA SEMICOLLARIS (Vieill.).</nom>
+      <nom n="399. TRINGA MACULATA, Vieill.">399. TRINGA MACULATA, Vieill.</nom>
+      <nom n="400. TRINGA BAIRDI (Coues).">400. TRINGA BAIRDI (Coues).</nom>
+      <nom n="401. TRINGA FUSCICOLLIS, Vieill.">401. TRINGA FUSCICOLLIS, Vieill.</nom>
+      <nom n="402. CALIDRIS ARENARIA (Linn.).">402. CALIDRIS ARENARIA (Linn.).</nom>
+      <nom n="403. TOTANUS MELANOLEUCUS (Gm.).">403. TOTANUS MELANOLEUCUS (Gm.).</nom>
+      <nom n="404. TOTANUS FLAVIPES (Gm.).">404. TOTANUS FLAVIPES (Gm.).</nom>
+      <nom n="405. RHYACOPHILUS SOLITARIUS (Wils.).">405. RHYACOPHILUS SOLITARIUS (Wils.).</nom>
+      <nom n="406. ACTITURUS BARTRAMIUS (Wils.).">406. ACTITURUS BARTRAMIUS (Wils.).</nom>
+      <nom n="407. TRYNGITES RUFESCENS (Vieill.).">407. TRYNGITES RUFESCENS (Vieill.).</nom>
+      <nom n="408. LIMOSA HÆMASTICA (Linn.).">408. LIMOSA HÆMASTICA (Linn.).</nom>
+      <nom n="409. NUMENIUS BOREALIS (Forst.).">409. NUMENIUS BOREALIS (Forst.).</nom>
     </family>
   </order>
-  <order>
-    <family>
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
+  <order n="Order XVI. GAVIÆ.">
+    <family n="Fam. L. LARIDÆ">Fam. L. LARIDÆ<nom n="410. RHYNCHOPS MELANURA, Sw.">410. RHYNCHOPS MELANURA, Sw.</nom>
+      <nom n="411. PHAËTHUSA MAGNIROSTRIS (Licht.).">411. PHAËTHUSA MAGNIROSTRIS (Licht.).</nom>
+      <nom n="412. STERNA MAXIMA, Bodd.">412. STERNA MAXIMA, Bodd.</nom>
+      <nom n="413. STERNA TRUDEAUII, Aud.">413. STERNA TRUDEAUII, Aud.</nom>
+      <nom n="414. STERNA HIRUNDINACEA, Less.">414. STERNA HIRUNDINACEA, Less.</nom>
+      <nom n="415. STERNA SUPERCILIARIS, Vieill.">415. STERNA SUPERCILIARIS, Vieill.</nom>
+      <nom n="416. LARUS DOMINICANUS, Licht.">416. LARUS DOMINICANUS, Licht.</nom>
+      <nom n="417. LARUS MACULIPENNIS, Licht.">417. LARUS MACULIPENNIS, Licht.</nom>
+      <nom n="418. LARUS CIRRHOCEPHALUS, Vieill.">418. LARUS CIRRHOCEPHALUS, Vieill.</nom>
     </family>
   </order>
-  <order>
-    <family>
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
+  <order n="Order XVII. PYGOPODES.">
+    <family n="Fam. LI. PODICIPEDIDÆ">Fam. LI. PODICIPEDIDÆ<nom n="419. ÆCHMOPHORUS MAJOR (Bodd.).">419. ÆCHMOPHORUS MAJOR (Bodd.).</nom>
+      <nom n="420. PODICEPS CALIPARÆUS, Less.">420. PODICEPS CALIPARÆUS, Less.</nom>
+      <nom n="421. PODICEPS ROLLANDI, Quoy et Gaim.">421. PODICEPS ROLLANDI, Quoy et Gaim.</nom>
+      <nom n="422. TACHYBAPTES DOMINICUS (Linn.).">422. TACHYBAPTES DOMINICUS (Linn.).</nom>
+      <nom n="423. PODILYMBUS PODICEPS (Linn.).">423. PODILYMBUS PODICEPS (Linn.).</nom>
     </family>
   </order>
-  <order>
-    <family>
-      <nom />
+  <order n="Order XVIII. IMPENNES.">
+    <family n="Fam. LII. APTENODYTIDÆ">Fam. LII. APTENODYTIDÆ<nom n="424. SPHENISCUS MAGELLANICUS (Forst.).">424. SPHENISCUS MAGELLANICUS (Forst.).</nom>
     </family>
   </order>
-  <order>
-    <family>
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
-      <nom />
+  <order n="Order XIX. CRYPTURI.">
+    <family n="Fam. LIII. TINAMIDÆ">Fam. LIII. TINAMIDÆ<nom n="425. CRYPTURUS OBSOLETUS, Temm.">425. CRYPTURUS OBSOLETUS, Temm.</nom>
+      <nom n="426. CRYPTURUS TATAUPA (Temm.).">426. CRYPTURUS TATAUPA (Temm.).</nom>
+      <nom n="427. RHYNCHOTUS RUFESCENS (Temm.).">427. RHYNCHOTUS RUFESCENS (Temm.).</nom>
+      <nom n="428. NOTHOPROCTA PENTLANDI (Gray).">428. NOTHOPROCTA PENTLANDI (Gray).</nom>
+      <nom n="429. NOTHOPROCTA CINERASCENS (Burm.).">429. NOTHOPROCTA CINERASCENS (Burm.).</nom>
+      <nom n="430. NOTHURA MACULOSA (Temm.)">430. NOTHURA MACULOSA (Temm.)</nom>
+      <nom n="431. NOTHURA DARWINI, Gray.">431. NOTHURA DARWINI, Gray.</nom>
+      <nom n="432. CALODROMAS ELEGANS (d'Orb. et Geoff.).">432. CALODROMAS ELEGANS (d'Orb. et Geoff.).</nom>
     </family>
   </order>
-  <order>
-    <family>
-      <nom />
-      <nom />
+  <order n="Order XX. STRUTHIONES.">
+    <family n="Fam. LIV. RHEIDÆ">Fam. LIV. RHEIDÆ<nom n="433. RHEA AMERICANA, Lath.">433. RHEA AMERICANA, Lath.</nom>
+      <nom n="434. RHEA DARWINI, Gould.">434. RHEA DARWINI, Gould.</nom>
     </family>
   </order>
 </document>
