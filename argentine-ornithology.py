@@ -10,10 +10,10 @@ tree = ET.ElementTree(element = ET.Element('document'))
 root = tree.getroot()
 
 for line in fileinput.input(encoding='utf-8'):
-    m = re.match(r'^Order\s([IVXL]+)\.', line)
+    m = re.match(r'(^Order\s)([IVXL]+)\.', line)
     if m:
         print(line)
-        order = ET.SubElement(root, 'order', attrib = {'n': m.group(1)})
+        order = ET.SubElement(root, 'order', attrib = {'n': m.group(2), 'name': m.group(1)})
 
     m = re.match(r'^Fam\.\s([IVXL]+)\. (.+)$', line)
     if m:
