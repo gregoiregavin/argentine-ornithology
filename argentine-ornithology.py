@@ -53,6 +53,8 @@ bibl = ET.Element('bibl')
 bibl.text = 'Argentine Ornithology, Volume 2 (of 2) by W. H. Hudson and Philip Lutley Sclater'
 sourceDesc.append(bibl)
 
+ornithology = ET.Element('argentine-ornithology')
+root.append(ornithology)
 
 # Opens the source file and read it line by line to populate
 for line in fileinput.input(files='files/1_birds.txt', encoding='utf-8'):
@@ -60,7 +62,7 @@ for line in fileinput.input(files='files/1_birds.txt', encoding='utf-8'):
     # Order match
     m = re.match('Order\s([IVXL]*)\.\s([A-Z \Æ]*)\.', line)
     if m:
-        order = ET.SubElement(root, 'order', attrib = {'n': m.group(1)})
+        order = ET.SubElement(ornithology, 'order', attrib = {'n': m.group(1)})
         order.text = m.group(2)
         #countOrders+=1
 
