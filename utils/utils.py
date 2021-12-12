@@ -9,7 +9,7 @@ def checkResults(nbOrders, nbFamilies, nbBirds) :
     
     if nbOrders != EXP_ORDERS: 
         print('Something went wrong with Orders. Expected ' + str(EXP_ORDERS) + ', got ' + str(nbOrders) + '.')
-        check = False 
+        check = False
     if nbFamilies != EXP_FAMILIES: 
         print('Something went wrong with Families. Expected ' + str(EXP_FAMILIES) + ', got ' + str(nbFamilies) + '.')
         check = False
