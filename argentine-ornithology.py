@@ -10,28 +10,27 @@ tree = ET.ElementTree(element = ET.Element('document'))
 root = tree.getroot()
 
 for line in fileinput.input(encoding='utf-8'):
-    m = re.match(r'(^Order\s)([IVXL]+)\.', line)
+    m = re.match('Order\s[IVXL]*\.\s[A-Z \Æ]*\.', line)
     if m:
         print(line)
         order = ET.SubElement(root, 'order', attrib = {'n': m.group(2), 'name': m.group(1)})
 
-    m = re.match(r'^Fam\.\s([IVXL]+)\. (.+)$', line)
-    if m:
-        print(line)
-        family = ET.SubElement(order, 'family', attrib = {'n': m.group(1)})
-        family.text = m.group(2)
+    #m = re.match('Fam\.\s[IVXL]*\.\s[A-Z \Æ]*', line)
+   # if m:
+        #print(line)
+        #family = ET.SubElement(order, 'family', attrib = {'n': m.group(1)})
+       # family.text = m.group(2)
         
-    m = re.match(r'(?m)^([0-9]{3}\. .*)$', line)
-    if m:
-        print(line)
-        family = ET.SubElement(order, 'nom', attrib = {'n': m.group(1)})
-        family.text = m.group(3)
+   # m = re.match(r'(?m)^([0-9]{3}\. .*)$', line)
+    #if m:
+      #  print(line)
+       # nom = ET.SubElement(order, 'nom', attrib = {'n': m.group(1)})
+       # nom.text = m.group(3)
         
-    m = re.match(r'(?m)^(_Hab\._ .*)$', line)
-    if m:
-        print(line)
-        family = ET.SubElement(order, 'habitat', attrib = {'n': m.group(1)})
-        family.text = m.group(4)
+   # m = re.match(r'(?m)^(_Hab\._ .*)$', line)
+   # if m:
+       # print(line)
+       # family.text = m.group(1)
 
 # Make the output readable
 ET.indent(tree)
