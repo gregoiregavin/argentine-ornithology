@@ -1,5 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
 <document>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Argentine ornithology - Ingénierie documentaire (2021)</title>
+        <respStmt>
+          <resp>compiled by</resp>
+          <name>Séverine bochatay, Adrien Coulon, Grégoire Gavin</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Project Gutenberg</distributor>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Argentine Ornithology, Volume 2 (of 2) by W. H. Hudson and Philip Lutley Sclater</bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
   <order n="II">MACROCHIRES<family n="XX">TROCHILIDÆ, or HUMMING-BIRDS.<bird n="230">OREOTROCHILUS LEUCOPLEURUS, Gould.<habitat>Chili and Northern Argentina.</habitat>
       </bird>
       <bird n="231">CHÆTOCERCUS BURMEISTERI, Scl.<habitat>Tucuman.</habitat>

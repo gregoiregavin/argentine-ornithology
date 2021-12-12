@@ -14,7 +14,47 @@ from utils.utils import checkResults
 tree = ET.ElementTree(element = ET.Element('document'))
 root = tree.getroot()
 
-# Opens the source file and read it line by line
+# Adding a basic (and kind of fake) TEI header
+teiHeader = ET.Element('teiHeader')
+root.append(teiHeader)
+
+fileDesc = ET.Element('fileDesc')
+teiHeader.append(fileDesc)
+
+titleStmt = ET.Element('titleStmt')
+fileDesc.append(titleStmt)
+
+title = ET.Element('title')
+title.text = 'Argentine ornithology - Ingénierie documentaire (2021)'
+titleStmt.append(title)
+
+respStmt = ET.Element('respStmt')
+titleStmt.append(respStmt)
+
+resp = ET.Element('resp')
+resp.text = 'compiled by'
+respStmt.append(resp)
+
+name = ET.Element('name')
+name.text = "Séverine bochatay, Adrien Coulon, Grégoire Gavin"
+respStmt.append(name)
+
+publicationStmt = ET.Element('publicationStmt')
+fileDesc.append(publicationStmt)
+
+distributor = ET.Element('distributor')
+distributor.text = 'Project Gutenberg'
+publicationStmt.append(distributor)
+
+sourceDesc = ET.Element('sourceDesc')
+fileDesc.append(sourceDesc)
+
+bibl = ET.Element('bibl')
+bibl.text = 'Argentine Ornithology, Volume 2 (of 2) by W. H. Hudson and Philip Lutley Sclater'
+sourceDesc.append(bibl)
+
+
+# Opens the source file and read it line by line to populate
 for line in fileinput.input(files='files/1_birds.txt', encoding='utf-8'):
     
     # Order match

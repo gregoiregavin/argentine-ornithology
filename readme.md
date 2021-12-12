@@ -58,7 +58,7 @@ From here, we're able to create and text the regular expressions to find our dat
  _For some reason, it seems we find 205 birds instead of 204. No information is missing still._
 
 ## 3. XML structuration and generation
-As the base document is well structured, we use [fileinput library](https://docs.python.org/3/library/fileinput.html) to go through the document line per line. Each time a math is found, we create the relative xml tag using [ElementTree API](https://docs.python.org/3/library/xml.etree.elementtree.html).
+As the base document is well structured, we use [fileinput library](https://docs.python.org/3/library/fileinput.html) to go through the document line per line. Each time a match is found, we create the relative xml tag using [ElementTree API](https://docs.python.org/3/library/xml.etree.elementtree.html).
 
 **Input** : [1_birds.txt](files/1_birds.txt)
 
