@@ -1,63 +1,59 @@
+import os
 import re
 import fileinput
+import xml.etree.ElementTree as ET
 from utils.utils import checkResults
 
-with open ('files/1_birds.txt', 'r', encoding="utf8") as sourcefile :
-    sourcetext = sourcefile.read()
-import xml.etree.ElementTree as ET
-
-# For regex results check
-countOrders = 0
-countFamilies = 0
-countBirds = 0
+# Vars for regex results check
+#countOrders = 0
+#countFamilies = 0
+#countBirds = 0
+#countHabs = 0
 
 # Create the XML tree that we're going to populate
 tree = ET.ElementTree(element = ET.Element('document'))
 root = tree.getroot()
 
+# Opens the source file and read it line by line
 for line in fileinput.input(files='files/1_birds.txt', encoding='utf-8'):
     
-    m = re.match('Order\s[IVXL]*\.\s[A-Z \Æ]*\.', line)
+    # Order match
+    m = re.match('Order\s([IVXL]*)\.\s([A-Z \Æ]*)\.', line)
     if m:
-        order = ET.SubElement(root, 'order', attrib = {'n': m.group()})
-        countOrders+=1
+        order = ET.SubElement(root, 'order', attrib = {'n': m.group(1)})
+        order.text = m.group(2)
+        #countOrders+=1
 
-    m = re.match('Fam\.\s[IVXL]*\.\s[A-Z \Æ]*', line)
+    # Family match
+    m = re.match('^Fam\.\s([IVXL]+)\. (.+)$', line)
     if m:
-        family = ET.SubElement(order, 'family', attrib = {'n': m.group()})
-        family.text = m.group()
-        countFamilies+=1
-        
-    m = re.match(r'(?m)^([0-9]{3}\. .*)$', line)
+        family = ET.SubElement(order, 'family', attrib = {'n': m.group(1)})
+        family.text = m.group(2)
+        #countFamilies+=1
+    
+    # Bird match
+    m = re.match('(?m)^(([0-9]{3})\. (.*))$', line)
     if m:
-        print(line)
-        nom = ET.SubElement(family, 'nom', attrib = {'n': m.group()})
-        nom.text = m.group()
-        
-    m = re.match(r'(?m)^(_Hab\._ .*)$', line)
+        nom = ET.SubElement(family, 'bird', attrib = {'n': m.group(2)})
+        nom.text = m.group(3)
+        #countBirds+=1
+    
+    # Habitat match
+    m = re.match('(?m)^(_Hab\._ (.*))$', line)
     if m:
-        print(line)
-        habitat = ET.SubElement(nom, 'habitat', attrib = {'n': m.group()})
-        habitat.text = m.group()
+        habitat = ET.SubElement(nom, 'habitat')
+        habitat.text = m.group(2)
+        #countHabs+=1
 
 # Check the results and print errors
-checkResults(countOrders, countFamilies, countBirds)
+#checkResults(countOrders, countFamilies, countBirds, countHabs)
 
 # Make the output readable
 ET.indent(tree)
 
-# Write the XML tree to a file
-tree.write('output.xml', encoding = 'utf-8')
+# Erase XML file content if existing
+if os.path.isfile('files/3_birds.xml'):
+    open('files/3_birds.xml', 'w').close()
 
-#Orders = re.findall('Order\s[IVXL]*\.\s[A-Z \Æ]*\.', sourcetext)
-#print(len(Orders)) # OK -> 18 orders
-#print(Orders)
-
-#Families = re.findall('Fam\.\s[IVXL]*\.\s[A-Z \Æ]*', sourcetext)
-#print(len(Families)) # OK -> 35 families
-#print(Families)
-
-#ScientificName = re.findall('[0-9]{3}\.\s[A-Z \Æ]{7,}', sourcetext)
-#print(len(ScientificName)) # OK -> 202 birds
-#print(ScientificName)
-
+# Write the tree into that well formed XML file
+tree.write('files/3_birds.xml', encoding='utf-8', xml_declaration = True)

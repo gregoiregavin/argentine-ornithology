@@ -48,14 +48,20 @@ As the table of content of the original document is humanly readable and accessi
 - 204 Birds
 
 ### 2.3 Test regex
-From here, we're able to create and text the regular expressions to find our data. We checked the results with the [checkResults function](utils/utils.py) and found the following regex working as expected :
+From here, we're able to create and text the regular expressions to find our data. We checked the results with the [checkResults function](utils/utils.py) and found the following regex :
 
  - Get Orders : ```Order\s[IVXL]*\.\s[A-Z \Æ]*\.```
- - Get Families : ```Fam\.\s[IVXL]*\.\s[A-Z \Æ]*```
- - Get Birds : ```[0-9]{3}\.\s[A-Z \Ë\Œ\Æ]{7,}``` 
+ - Get Families : ```^Fam\.\s([IVXL]+)\. (.+)$```
+ - Get Birds : ```[0-9]{3}\.\s[A-Z \Ë\Œ\Æ]{7,}```
 
-## 3. XML generation
-...
+ _For some reason, it seems we find 205 birds instead of 204. No information is missing still._
+
+## 3. XML structuration and generation
+As the base document is well structured, we use [fileinput library](https://docs.python.org/3/library/fileinput.html) to go through the document line per line. Each time a math is found, we create the relative xml tag using [ElementTree API](https://docs.python.org/3/library/xml.etree.elementtree.html).
+
+**Input** : [1_birds.txt](files/1_birds.txt)
+
+**Output** : [3_birds.xml](files/3_birds.xml)
 
 ## 4. XSLT transformation
 ...
