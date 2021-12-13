@@ -1,8 +1,14 @@
 import os
 import re
 import fileinput
-import xml.etree.ElementTree as ET
-from utils.utils import checkResults
+#import xml.etree.ElementTree as ET
+import lxml.etree as ET
+#from utils.utils import checkResults
+
+inputFile = 'files/1_birds.txt'
+xmlFile = 'files/2_birds.xml'
+xsltFile = 'files/3_birds.xslt'
+htmlFile = 'files/4_birds.html'
 
 # Vars for regex results check
 #countOrders = 0
@@ -57,7 +63,7 @@ ornithology = ET.Element('argentine-ornithology')
 root.append(ornithology)
 
 # Opens the source file and read it line by line to populate
-for line in fileinput.input(files='files/1_birds.txt', encoding='utf-8'):
+for line in fileinput.input(files=inputFile, encoding='utf-8'):
     
     # Order match
     m = re.match('Order\s([IVXL]*)\.\s([A-Z \Æ]*)\.', line)
@@ -94,8 +100,23 @@ for line in fileinput.input(files='files/1_birds.txt', encoding='utf-8'):
 ET.indent(tree)
 
 # Erase XML file content if existing
-if os.path.isfile('files/3_birds.xml'):
-    open('files/3_birds.xml', 'w').close()
+if os.path.isfile(xmlFile):
+    open(xmlFile, 'w').close()
 
 # Write the tree into that well formed XML file
-tree.write('files/3_birds.xml', encoding='utf-8', xml_declaration = True)
+tree.write(xmlFile, encoding='utf-8', xml_declaration = True)
+
+# Parse the XML and XSLT files 
+xml = ET.parse(xmlFile)
+xslt = ET.parse(xsltFile)
+
+# Transform the XML file with XSLT
+transform = ET.XSLT(xslt)
+newdom = transform(xml)
+
+# Erase HTML file content if existing
+if os.path.isfile(htmlFile):
+    open(htmlFile, 'w').close()
+
+# Write the new generated DOM in an HTML file
+newdom.write(htmlFile, encoding='utf-8')
