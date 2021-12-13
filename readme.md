@@ -21,11 +21,8 @@ The following steps allows us to accomplish this :
 
 **Source** : https://www.gutenberg.org/ebooks/38957
 
-**Dependencies** :
-- [re - Regular expresion operations](https://docs.python.org/3/library/re.html)
-- [os](https://docs.python.org/3/library/os.html)
-- [fileinput](https://docs.python.org/3/library/fileinput.html)
-- [xml.etree.ElementTree](https://docs.python.org/3/library/xml.etree.elementtree.html)
+**Dependencies** (see requirements.txt):
+- [lxml](https://docs.python.org/3/library/xml.etree.elementtree.html)
 
 ## 1. Clean-up
 The source file contains some metadata, notes, preface, and index which won't be used in the scope of this project. The document also contains a table of content which would result to duplicates elements when extracting data with regular expressions. To avoid the duplicates, we **manually** remove all those elements and the table of content.
