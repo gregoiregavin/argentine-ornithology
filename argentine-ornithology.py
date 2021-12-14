@@ -7,7 +7,7 @@ import lxml.etree as ET
 
 inputFile = 'files/1_birds.txt'
 xmlFile = 'files/2_birds.xml'
-xsltFile = 'files/3_birds.xslt'
+xsltFile = 'files/3_birds.xsl'
 htmlFile = 'files/4_birds.html'
 
 # Vars for regex results check
