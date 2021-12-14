@@ -19,22 +19,22 @@
     </xsl:template>
    
     <xsl:template match="order">
-    Order: <p style="color:purple"><xsl:apply-templates /></p>
+    <p style="color:purple"> Order: <xsl:apply-templates /></p>
      <br/>
     </xsl:template>
  
     <xsl:template match="order/family">
-    Family: <p style="color:green"><xsl:apply-templates /></p>
+     <p style="color:green"> Family: <xsl:apply-templates /></p>
      <br/>
     </xsl:template>
 
     <xsl:template match="order/family/bird">
-    Bird: <p style="color:red"><xsl:apply-templates /></p>
+     <p style="color:red"> Bird: <xsl:apply-templates /></p>
      <br/>
     </xsl:template>
 
     <xsl:template match="order/family/bird/habitat">
-    Habitat: <p style="color:blue"><xsl:apply-templates /></p>
+    <p style="color:blue"> Habitat: <xsl:apply-templates /></p>
      <br/>
     </xsl:template>
    
