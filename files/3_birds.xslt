@@ -15,35 +15,36 @@
 
     <xsl:template match="argentine-ornithology">
         <p>
-            <xsl:apply-templates select="order"/>  
-            <xsl:apply-templates select="family"/>
-            <xsl:apply-templates select="bird"/>
-            <xsl:apply-templates select="habitat"/>
+        <xsl:apply-templates select="order"/>  
+        <xsl:apply-templates select="order/family"/>
+        <xsl:apply-templates select="order/family/bird"/>
+        <xsl:apply-templates select="order/family/bird/habitat"/>
         </p>
     </xsl:template>
-
+    
     <xsl:template match="order">
-        Order: <span style="color:#00ff00">
-        <xsl:value-of select="."/></span>
-        <br />
+    Order: <span style="color:#ff0000">
+    <xsl:value-of select="."/></span>
+    <br />
     </xsl:template>
 
-    <xsl:template match="family">
-        Family: <span style="color:#ff0000">
-        <xsl:value-of select="."/></span>
-        <br />
+    <xsl:template match="order/family">
+    Family: <span style="color:#00ff00">
+    <xsl:value-of select="."/></span>
+    <br />
     </xsl:template>
 
-    <xsl:template match="bird">
-        Bird: <span style="color:green">
-        <xsl:value-of select="."/></span>
-        <br />
+    <xsl:template match="order/family/bird">
+    Bird: <span style="color:#0000ff">
+    <xsl:value-of select="."/></span>
+    <br />
     </xsl:template>
 
-    <xsl:template match="habitat">
-        Habitat: <span style="color:purple">
-        <xsl:value-of select="."/></span>
-        <br />
+    <xsl:template match="order/family/bird/habitat">
+    Habitat: <span style="color:#ff0000">
+    <xsl:value-of select="."/></span>
+    <br />
     </xsl:template>
+    
 
 </xsl:stylesheet>
