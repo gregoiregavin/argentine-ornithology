@@ -8,43 +8,34 @@
             <body>
                 <h1>Argentine ornithology</h1>
                 <h2>Authors : Séverine Bochatay, Adrien Coulon, Grégoire Gavin</h2>
-                 <xsl:apply-templates/>  
+                 <xsl:apply-templates/> 
             </body>
         </html>
     </xsl:template>
 
-    <xsl:template match="argentine-ornithology">
-        <p>
-        <xsl:apply-templates select="order"/>  
-        <xsl:apply-templates select="order/family"/>
-        <xsl:apply-templates select="order/family/bird"/>
-        <xsl:apply-templates select="order/family/bird/habitat"/>
-        </p>
+    <xsl:template match="order|family|bird|habitat">
+    <hr /> <xsl:apply-templates />
+     <br/>
     </xsl:template>
-    
+   
     <xsl:template match="order">
-    Order: <span style="color:#ff0000">
-    <xsl:value-of select="."/></span>
-    <br />
+    Order: <p style="color:purple"><xsl:apply-templates /></p>
+     <br/>
     </xsl:template>
-
+ 
     <xsl:template match="order/family">
-    Family: <span style="color:#00ff00">
-    <xsl:value-of select="."/></span>
-    <br />
+    Family: <p style="color:green"><xsl:apply-templates /></p>
+     <br/>
     </xsl:template>
 
     <xsl:template match="order/family/bird">
-    Bird: <span style="color:#0000ff">
-    <xsl:value-of select="."/></span>
-    <br />
+    Bird: <p style="color:red"><xsl:apply-templates /></p>
+     <br/>
     </xsl:template>
 
     <xsl:template match="order/family/bird/habitat">
-    Habitat: <span style="color:#ff0000">
-    <xsl:value-of select="."/></span>
-    <br />
+    Habitat: <p style="color:blue"><xsl:apply-templates /></p>
+     <br/>
     </xsl:template>
-    
-
+   
 </xsl:stylesheet>
