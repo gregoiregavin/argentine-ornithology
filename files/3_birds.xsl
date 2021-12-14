@@ -11,7 +11,6 @@
                 <xsl:for-each select="document/argentine-ornithology/order/family">
                     <span>
                         <xsl:value-of select="bird"/>
-                        TEST CHANGEMENT 14.12 - 17h55
                     </span>
                 </xsl:for-each>
             </body>
