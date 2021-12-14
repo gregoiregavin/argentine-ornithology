@@ -7,7 +7,7 @@ import lxml.etree as ET
 
 inputFile = 'files/1_birds.txt'
 xmlFile = 'files/2_birds.xml'
-xsltFile = 'files/3_birds.xsl'
+xsltFile = 'files/3_birds.xslt'
 htmlFile = 'files/4_birds.html'
 
 # Vars for regex results check
@@ -63,7 +63,7 @@ ornithology = ET.Element('argentine-ornithology')
 root.append(ornithology)
 
 # Opens the source file and read it line by line to populate
-for line in fileinput.input(files=inputFile, encoding='utf-8'):
+for line in fileinput.input(files=inputFile):
     
     # Order match
     m = re.match('Order\s([IVXL]*)\.\s([A-Z \Æ]*)\.', line)
