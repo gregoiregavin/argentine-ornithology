@@ -63,7 +63,7 @@ root.append(ornithology)
 
 # Opens the source file and read it line by line to populate
 #for line in fileinput.input(files=inputFile): ## Works on MacOS
-for line in fileinput.input(files=inputFile, encoding='UTF-8'): ## Works on Windows
+for line in fileinput.input(files=inputFile, encoding='UTF-8'): ## Works on Windows  
     # Order match
     m = re.match('Order\s([IVXL]*)\.\s([A-Z \Æ]*)\.', line)
     if m:

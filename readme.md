@@ -68,7 +68,14 @@ Also, we add a basic TEI header by creating ElementTree Elements using the [appe
 ## 4. XSLT transformation
 As the [lxml](https://docs.python.org/3/library/xml.etree.elementtree.html) library contains an XSLT processor, we chosed to use that library. 
 
-[...]
+In the 3_birds.xslt file, we started the document with the declaration <?xml version="1.0" encoding="UTF-8"?>. Then we used a style sheet <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"> and closed it with the stylesheet element at the end.
+
+The second step was to use <xsl:template match="/"> to define the whole document and the match="/" attribute is used to associate a template the root of the XML source document.
+
+For the third step, it was difficult to find a way in order to catch all the nodes nested in each other. XPath operator "|" which means "or" was usefull to find a path to link different nodes like "order|family|bird|habitat". The research will be done the <order></order>or<family></family>or<bird></bird>or<habiat></habiat>.
+
+The forth step was to clarify which specific node we wanted in each template element.The selection of the node "family' which is inside "order" was made thanks to "order/family" so we did not need to create an intermediare template for the node "order". 
+
 
 ## 5. Possible improvements
 At the end of the process, we think we could do the following improvements : 
