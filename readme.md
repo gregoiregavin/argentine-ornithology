@@ -22,7 +22,7 @@ The following steps allows us to accomplish this :
 **Source** : https://www.gutenberg.org/ebooks/38957
 
 **Dependencies** (see requirements.txt):
-- [lxml](https://docs.python.org/3/library/xml.etree.elementtree.html)
+- [lxml](https://docs.python.org/3/library/xml.etree.elementtree.html) (```pip install -r requirements.txt -U```)
 
 ## 1. Clean-up
 The source file contains some metadata, notes, preface, and index which won't be used in the scope of this project. The document also contains a table of content which would result to duplicates elements when extracting data with regular expressions. To avoid the duplicates, we **manually** remove all those elements and the table of content.
@@ -69,4 +69,7 @@ Also, we add a basic TEI header by creating ElementTree Elements using the [appe
 ...
 
 ## 5. Possible improvements
-...
+At the end of the process, we think we could do the following improvements : 
+ - Improve the Birds regex to get 204 birds
+ - Get the name of the scientist in a separate tag (actually with bird)
+ - Create a more clean HTML output

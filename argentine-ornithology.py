@@ -1,7 +1,6 @@
 import os
 import re
 import fileinput
-#import xml.etree.ElementTree as ET
 import lxml.etree as ET
 #from utils.utils import checkResults
 
@@ -63,8 +62,8 @@ ornithology = ET.Element('argentine-ornithology')
 root.append(ornithology)
 
 # Opens the source file and read it line by line to populate
-for line in fileinput.input(files=inputFile):
-    
+#for line in fileinput.input(files=inputFile): ## Works on MacOS
+for line in fileinput.input(files=inputFile, encoding='UTF-8'): ## Works on Windows
     # Order match
     m = re.match('Order\s([IVXL]*)\.\s([A-Z \Æ]*)\.', line)
     if m:
