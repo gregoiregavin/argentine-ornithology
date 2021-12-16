@@ -57,7 +57,7 @@ From here, we're able to create and text the regular expressions to find our dat
  _For some reason, it seems we find 205 birds instead of 204. No information is missing still._
 
 ## 3. XML structuration and generation
-As the base document is well structured, we use [fileinput library](https://docs.python.org/3/library/fileinput.html) to go through the document line per line. Each time a match is found, we create the relative xml tag using [ElementTree API](https://docs.python.org/3/library/xml.etree.elementtree.html).
+As the base document is well structured, we use [fileinput library](https://docs.python.org/3/library/fileinput.html) to go through the document line per line. Each time a match is found, we create the relative xml tag using [lxml](https://docs.python.org/3/library/xml.etree.elementtree.html).
 
 Also, we add a basic TEI header by creating ElementTree Elements using the [append()](https://docs.python.org/3/library/xml.etree.elementtree.html#xml.etree.ElementTree.Element.append) function.
 
@@ -66,7 +66,9 @@ Also, we add a basic TEI header by creating ElementTree Elements using the [appe
 **Output** : [3_birds.xml](files/3_birds.xml)
 
 ## 4. XSLT transformation
-...
+As the [lxml](https://docs.python.org/3/library/xml.etree.elementtree.html) library contains an XSLT processor, we chosed to use that library. 
+
+[...]
 
 ## 5. Possible improvements
 At the end of the process, we think we could do the following improvements : 
