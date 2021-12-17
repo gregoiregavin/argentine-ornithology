@@ -23,17 +23,17 @@
      <br/>
     </xsl:template>
  
-    <xsl:template match="order/family">
+    <xsl:template match="family">
      <p style="color:green"> Family: <xsl:apply-templates /></p>
      <br/>
     </xsl:template>
 
-    <xsl:template match="order/family/bird">
+    <xsl:template match="bird">
      <p style="color:red"> Bird: <xsl:apply-templates /></p>
      <br/>
     </xsl:template>
 
-    <xsl:template match="order/family/bird/habitat">
+    <xsl:template match="habitat">
     <p style="color:blue"> Habitat: <xsl:apply-templates /></p>
      <br/>
     </xsl:template>

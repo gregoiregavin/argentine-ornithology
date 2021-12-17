@@ -45,6 +45,7 @@ As the table of content of the original document is humanly readable and accessi
 - 18 Orders
 - 35 Families
 - 204 Birds
+- 204 Habitats
 
 ### 2.3 Test regex
 From here, we're able to create and text the regular expressions to find our data. We checked the results with the [checkResults function](utils/utils.py) and found the following regex :
@@ -74,11 +75,12 @@ The second step was to use <xsl:template match="/"> to define the whole document
 
 For the third step, it was difficult to find a way in order to catch all the nodes nested in each other. XPath operator "|" which means "or" was usefull to find a path to link different nodes like "order|family|bird|habitat". The research will be done the <order></order>or<family></family>or<bird></bird>or<habiat></habiat>.
 
-The forth step was to clarify which specific node we wanted in each template element. The selection of the node "family' which is inside "order" was made thanks to "order/family" so we did not need to create an intermediare template for the node "order". 
+The forth step was to clarify which node we wanted in each template element. 
 
 
 ## 5. Possible improvements
 At the end of the process, we think we could do the following improvements : 
- - Improve the Birds regex to get 204 birds
+ - Improve the Birds regex to get 204 birds instead of 205
  - Get the name of the scientist in a separate tag (actually with bird)
- - Create a more clean HTML output
+ - Create a cleaner HTML output
+ - One bird do not have any habitat so we have only 203 habitats. 
