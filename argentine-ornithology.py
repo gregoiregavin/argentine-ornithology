@@ -41,7 +41,7 @@ resp.text = 'compiled by'
 respStmt.append(resp)
 
 name = ET.Element('name')
-name.text = "Séverine bochatay, Adrien Coulon, Grégoire Gavin"
+name.text = "Séverine Bochatay, Adrien Coulon, Grégoire Gavin"
 respStmt.append(name)
 
 publicationStmt = ET.Element('publicationStmt')
